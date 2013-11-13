@@ -1,0 +1,7 @@
+name = Address Field Indonesia
+description = Address Field format handler plugin for Indonesia addresses.
+core = 7.x
+package = Fields
+
+dependencies[] = ctools
+dependencies[] = addressfield
