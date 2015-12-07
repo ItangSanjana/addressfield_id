@@ -1,11 +1,16 @@
 <?php
 
 /**
+ * @file
+ * Province list.
+ */
+
+/**
  * Returns addressfield_id_get_administrative_areas().
  */
 function addressfield_id_get_administrative_areas() {
   $administrative_areas = drupal_map_assoc(array(
-    t(''),
+    '',
     t('Bali'),
     t('Bangka Belitung'),
     t('Banten'),

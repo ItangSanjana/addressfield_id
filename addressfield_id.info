@@ -2,5 +2,5 @@ name = Address Field Indonesia
 description = Address form (Indonesia plugin).
 core = 7.x
 package = Fields
+
 dependencies[] = addressfield
-project status url = https://github.com/ItangSanjana/addressfield_id/releases
