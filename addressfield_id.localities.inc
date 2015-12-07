@@ -1,12 +1,17 @@
 <?php
 
 /**
+ * @file
+ * City list.
+ */
+
+/**
  * Returns addressfield_id_get_localities().
  */
 function addressfield_id_get_localities($administrative_areas) {
   $localities = array(
     '' => drupal_map_assoc(array(
-      t(''),
+      '',
     )),
     'Bali' => drupal_map_assoc(array(
       t('Badung'),

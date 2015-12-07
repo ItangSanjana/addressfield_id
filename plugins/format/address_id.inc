@@ -13,16 +13,18 @@ $plugin = array(
 );
 
 /**
- * Implement hook_addressfield_address_formats_alter().
+ * Implements hook_addressfield_address_formats_alter().
  */
 function addressfield_id_addressfield_address_formats_alter(&$address_formats) {
-  $address_formats['ID']['required_fields'] = array('locality', 'administrative_area', 'postal_code');
+  $address_formats['ID']['required_fields'] = array(
+    'locality',
+    'administrative_area',
+    'postal_code',
+  );
 }
 
 /**
- * Format callback Indonesia address.
- *
- * @see CALLBACK_addressfield_format_callback()
+ * Returns addressfield_id_addressfield_format_generate().
  */
 function addressfield_id_addressfield_format_generate(&$format, $address, $context = array()) {
   if ($address['country'] == 'ID') {
