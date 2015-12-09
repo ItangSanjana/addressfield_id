@@ -9,8 +9,7 @@
  * Returns addressfield_id_get_administrative_areas().
  */
 function addressfield_id_get_administrative_areas() {
-  $administrative_areas = drupal_map_assoc(array(
-    '',
+  $administrative_areas = array('' => t('- Select -')) + drupal_map_assoc(array(
     t('Bali'),
     t('Bangka Belitung'),
     t('Banten'),
