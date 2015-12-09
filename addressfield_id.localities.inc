@@ -10,9 +10,7 @@
  */
 function addressfield_id_get_localities($administrative_areas) {
   $localities = array(
-    '' => drupal_map_assoc(array(
-      '',
-    )),
+    '' => array('' => t('- Select -')),
     'Bali' => drupal_map_assoc(array(
       t('Badung'),
       t('Bangli'),
