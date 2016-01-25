@@ -8,7 +8,7 @@
 /**
  * Returns addressfield_id_get_localities().
  */
-function addressfield_id_get_localities($administrative_areas) {
+function addressfield_id_get_localities($administrative_areas = null) {
   $localities = array(
     '' => array('' => t('- Select -')),
     'Bali' => drupal_map_assoc(array(
