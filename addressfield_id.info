@@ -1,6 +1,5 @@
-name = Address Field Indonesia
+name = Address Field ID
 description = Address form (Indonesia plugin).
-core = 7.x
 package = Fields
-
 dependencies[] = addressfield
+core = 7.x
