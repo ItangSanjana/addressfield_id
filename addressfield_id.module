@@ -13,3 +13,38 @@ function addressfield_id_ctools_plugin_directory($module, $plugin) {
     return 'plugins/' . $plugin;
   }
 }
+
+/**
+ * Implements hook_help().
+ */
+function addressfield_id_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#addressfield_id':
+
+    $output = FALSE;
+
+    if (module_exists('markdown')) {
+      $filepath = dirname(__FILE__) . '/README.md';
+
+      if (file_exists($filepath)) {
+        $filters = module_invoke('markdown', 'filter_info');
+        $info = $filters['filter_markdown'];
+        $readme = file_get_contents($filepath);
+
+        if (function_exists($info['process callback'])) {
+          $output = $info['process callback']($readme, NULL);
+        }
+      }
+    }
+    else {
+      $filepath = dirname(__FILE__) . '/README.txt';
+
+      if (file_exists($filepath)) {
+        $readme = file_get_contents($filepath);
+        $output = '<pre>' . $readme . '</pre>';
+      }
+    }
+
+    return $output;
+  }
+}

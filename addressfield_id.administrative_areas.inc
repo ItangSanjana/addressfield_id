@@ -2,11 +2,12 @@
 
 /**
  * @file
- * Province list.
+ * A list of all administrative areas.
  */
 
 /**
- * Returns addressfield_id_get_administrative_areas().
+ * @return
+ *   An array which contains keys and values.
  */
 function addressfield_id_get_administrative_areas() {
   $administrative_areas = array('' => t('- Select -')) + drupal_map_assoc(array(

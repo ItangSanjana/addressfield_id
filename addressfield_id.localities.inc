@@ -2,16 +2,21 @@
 
 /**
  * @file
- * City list.
+ * A list of all cities in Indonesia.
  */
 
 /**
- * Returns addressfield_id_get_localities().
+ * @param $administrative_area
+ *   The selected administrative area.
+ * @return
+ *   An array which contains keys and values.
  */
-function addressfield_id_get_localities($administrative_areas = null) {
+function addressfield_id_get_localities($administrative_area = NULL) {
   $localities = array(
-    '' => array('' => t('- Select -')),
-    'Bali' => drupal_map_assoc(array(
+    '' => array(
+      '' => t('- Select -')
+    ),
+    'Bali' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Badung'),
       t('Bangli'),
       t('Buleleng'),
@@ -22,7 +27,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Klungkung'),
       t('Tabanan'),
     )),
-    'Bangka Belitung' => drupal_map_assoc(array(
+    'Bangka Belitung' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bangka'),
       t('Bangka Barat'),
       t('Bangka Selatan'),
@@ -31,7 +36,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Belitung Timur'),
       t('Pangkal Pinang'),
     )),
-    'Banten' => drupal_map_assoc(array(
+    'Banten' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Cilegon'),
       t('Lebak'),
       t('Pandeglang'),
@@ -41,7 +46,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Tangerang (Kota)'),
       t('Tangerang Selatan'),
     )),
-    'Bengkulu' => drupal_map_assoc(array(
+    'Bengkulu' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bengkulu'),
       t('Bengkulu Selatan'),
       t('Bengkulu Tengah'),
@@ -53,14 +58,14 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Rejang Lebong'),
       t('Seluma'),
     )),
-    'DI Yogyakarta' => drupal_map_assoc(array(
+    'DI Yogyakarta' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bantul'),
       t('Gunung Kidul'),
       t('Kulon Progo'),
       t('Sleman'),
       t('Yogyakarta'),
     )),
-    'DKI Jakarta' => drupal_map_assoc(array(
+    'DKI Jakarta' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Jakarta Barat'),
       t('Jakarta Pusat'),
       t('Jakarta Selatan'),
@@ -68,7 +73,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Jakarta Utara'),
       t('Kepulauan Seribu'),
     )),
-    'Gorontalo' => drupal_map_assoc(array(
+    'Gorontalo' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Boalemo'),
       t('Bone Bolango'),
       t('Gorontalo'),
@@ -76,7 +81,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Gorontalo Utara'),
       t('Pohuwato'),
     )),
-    'Jambi' => drupal_map_assoc(array(
+    'Jambi' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Batang Hari'),
       t('Bungo'),
       t('Jambi'),
@@ -89,7 +94,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Tanjung Jabung Timur'),
       t('Tebo'),
     )),
-    'Jawa Barat' => drupal_map_assoc(array(
+    'Jawa Barat' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bandung'),
       t('Bandung (Kota)'),
       t('Bandung Barat'),
@@ -118,7 +123,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Tasikmalaya'),
       t('Tasikmalaya (Kota)'),
     )),
-    'Jawa Tengah' => drupal_map_assoc(array(
+    'Jawa Tengah' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Banjarnegara'),
       t('Banyumas'),
       t('Batang'),
@@ -155,7 +160,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Wonogiri'),
       t('Wonosobo'),
     )),
-    'Jawa Timur' => drupal_map_assoc(array(
+    'Jawa Timur' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bangkalan'),
       t('Banyuwangi'),
       t('Batu'),
@@ -195,7 +200,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Tuban'),
       t('Tulungagung'),
     )),
-    'Kalimantan Barat' => drupal_map_assoc(array(
+    'Kalimantan Barat' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bengkayang'),
       t('Kapuas Hulu'),
       t('Kayong Utara'),
@@ -211,7 +216,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Singkawang'),
       t('Sintang'),
     )),
-    'Kalimantan Selatan' => drupal_map_assoc(array(
+    'Kalimantan Selatan' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Balangan'),
       t('Banjar'),
       t('Banjarbaru'),
@@ -226,7 +231,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Tanah Laut'),
       t('Tapin'),
     )),
-    'Kalimantan Tengah' => drupal_map_assoc(array(
+    'Kalimantan Tengah' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Barito Selatan'),
       t('Barito Timur'),
       t('Barito Utara'),
@@ -242,7 +247,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Seruyan'),
       t('Sukamara'),
     )),
-    'Kalimantan Timur' => drupal_map_assoc(array(
+    'Kalimantan Timur' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Balikpapan'),
       t('Berau'),
       t('Bontang'),
@@ -253,14 +258,14 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Penajam Paser Utara'),
       t('Samarinda'),
     )),
-    'Kalimantan Utara' => drupal_map_assoc(array(
+    'Kalimantan Utara' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bulungan (Bulongan)'),
       t('Malinau'),
       t('Nunukan'),
       t('Tana Tidung'),
       t('Tarakan'),
     )),
-    'Kepulauan Riau' => drupal_map_assoc(array(
+    'Kepulauan Riau' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Batam'),
       t('Bintan'),
       t('Karimun'),
@@ -269,7 +274,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Natuna'),
       t('Tanjung Pinang'),
     )),
-    'Lampung' => drupal_map_assoc(array(
+    'Lampung' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bandar Lampung'),
       t('Lampung Barat'),
       t('Lampung Selatan'),
@@ -286,7 +291,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Tulang Bawang Barat'),
       t('Way Kanan'),
     )),
-    'Maluku' => drupal_map_assoc(array(
+    'Maluku' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Ambon'),
       t('Buru'),
       t('Buru Selatan'),
@@ -299,7 +304,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Seram Bagian Timur'),
       t('Tual'),
     )),
-    'Maluku Utara' => drupal_map_assoc(array(
+    'Maluku Utara' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Halmahera Barat'),
       t('Halmahera Selatan'),
       t('Halmahera Tengah'),
@@ -310,7 +315,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Ternate'),
       t('Tidore Kepulauan'),
     )),
-    'Nanggroe Aceh Darussalam (NAD)' => drupal_map_assoc(array(
+    'Nanggroe Aceh Darussalam (NAD)' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Aceh Barat'),
       t('Aceh Barat Daya'),
       t('Aceh Besar'),
@@ -335,7 +340,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Simeulue'),
       t('Subulussalam'),
     )),
-    'Nusa Tenggara Barat (NTB)' => drupal_map_assoc(array(
+    'Nusa Tenggara Barat (NTB)' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bima'),
       t('Bima (Kota)'),
       t('Dompu'),
@@ -347,7 +352,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Sumbawa'),
       t('Sumbawa Barat'),
     )),
-    'Nusa Tenggara Timur (NTT)' => drupal_map_assoc(array(
+    'Nusa Tenggara Timur (NTT)' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Alor'),
       t('Belu'),
       t('Ende'),
@@ -370,7 +375,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Timor Tengah Selatan'),
       t('Timor Tengah Utara'),
     )),
-    'Papua' => drupal_map_assoc(array(
+    'Papua' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Asmat'),
       t('Biak Numfor'),
       t('Boven Digoel'),
@@ -401,7 +406,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Yahukimo'),
       t('Yalimo'),
     )),
-    'Papua Barat' => drupal_map_assoc(array(
+    'Papua Barat' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Fakfak'),
       t('Kaimana'),
       t('Manokwari'),
@@ -416,7 +421,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Teluk Bintuni'),
       t('Teluk Wondama'),
     )),
-    'Riau' => drupal_map_assoc(array(
+    'Riau' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bengkalis'),
       t('Dumai'),
       t('Indragiri Hilir'),
@@ -430,14 +435,14 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Rokan Hulu'),
       t('Siak'),
     )),
-    'Sulawesi Barat' => drupal_map_assoc(array(
+    'Sulawesi Barat' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Majene'),
       t('Mamasa'),
       t('Mamuju'),
       t('Mamuju Utara'),
       t('Polewali Mandar'),
     )),
-    'Sulawesi Selatan' => drupal_map_assoc(array(
+    'Sulawesi Selatan' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bantaeng'),
       t('Barru'),
       t('Bone'),
@@ -463,7 +468,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Toraja Utara'),
       t('Wajo'),
     )),
-    'Sulawesi Tengah' => drupal_map_assoc(array(
+    'Sulawesi Tengah' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Banggai'),
       t('Banggai Kepulauan'),
       t('Buol'),
@@ -476,7 +481,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Tojo Una-Una'),
       t('Toli-Toli'),
     )),
-    'Sulawesi Tenggara' => drupal_map_assoc(array(
+    'Sulawesi Tenggara' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bau-Bau'),
       t('Bombana'),
       t('Buton'),
@@ -490,7 +495,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Muna'),
       t('Wakatobi'),
     )),
-    'Sulawesi Utara' => drupal_map_assoc(array(
+    'Sulawesi Utara' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Bitung'),
       t('Bolaang Mongondow (Bolmong)'),
       t('Bolaang Mongondow Selatan'),
@@ -507,7 +512,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Minahasa Utara'),
       t('Tomohon'),
     )),
-    'Sumatera Barat' => drupal_map_assoc(array(
+    'Sumatera Barat' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Agam'),
       t('Bukittinggi'),
       t('Dharmasraya'),
@@ -528,7 +533,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Solok Selatan'),
       t('Tanah Datar'),
     )),
-    'Sumatera Selatan' => drupal_map_assoc(array(
+    'Sumatera Selatan' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Banyuasin'),
       t('Empat Lawang'),
       t('Lahat'),
@@ -545,7 +550,7 @@ function addressfield_id_get_localities($administrative_areas = null) {
       t('Palembang'),
       t('Prabumulih'),
     )),
-    'Sumatera Utara' => drupal_map_assoc(array(
+    'Sumatera Utara' => array('' => t('- Select -')) + drupal_map_assoc(array(
       t('Asahan'),
       t('Batu Bara'),
       t('Binjai'),
@@ -582,5 +587,5 @@ function addressfield_id_get_localities($administrative_areas = null) {
     )),
   );
 
-  return $localities[$administrative_areas];
+  return $localities[$administrative_area];
 }
