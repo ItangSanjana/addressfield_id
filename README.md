@@ -16,9 +16,11 @@ This module requires the following modules:
 
 - Using [drush](https://github.com/drush-ops/drush)
 
-      cd to/your/drupal/project
-      drush dl addressfield_id
-      drush en addressfield_id
+```Shell
+cd to/your/drupal/project
+drush dl addressfield_id
+drush en addressfield_id
+```
 
 - or manual install see: [Installing modules (Drupal 7)](https://www.drupal.org/documentation/install/modules-themes/modules-7).
 
@@ -26,10 +28,6 @@ This module requires the following modules:
 
 - Enable Address Field ID format handlers e.g. go to:
 
-      admin/structure/types/manage/[content_type]/fields/[addressfield_field]
-
-## Maintainers
-
-Current maintainers:
-
-- [Itang Sanjana (ItangSanjana)](drupal.org/user/1193514)
+```Shell
+admin/structure/types/manage/[content_type]/fields/[addressfield_field]
+```
