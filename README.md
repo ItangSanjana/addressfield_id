@@ -31,9 +31,3 @@ drush en addressfield_id
 ```Shell
 admin/structure/types/manage/[content_type]/fields/[addressfield_field]
 ```
-
-## Maintainers
-
-Current maintainers:
-
-- [Itang Sanjana (ItangSanjana)](drupal.org/user/1193514)
