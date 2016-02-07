@@ -1,9 +1,24 @@
+
+           N
+           ohN
+        my:/sshdN
+     mo. `/ssssssyhN
+   m/``-+ssssssssssshN
+  mo/+ssssssssssssssshN
+ NysssssssssssssssssyyhN
+ mssssssssosssssssyyyyym
+ msssss:`   `:+syyo-`.sm
+  ysss:        :/`    s
+  Nysso.   .:++++s+``+N
+    mhyyyyysysyyyoyym
+      Ndhhys++++ohm
+          NNNNN
+
 CONTENTS OF THIS FILE
 ---------------------
 
  * Introduction
  * Requirements
- * Recommended modules
  * Installation
  * Configuration
  * Maintainers
@@ -18,8 +33,6 @@ This module integrates Indonesia addresses with Address Field
 
 REQUIREMENTS
 ------------
-
-This module requires the following modules:
 
  * Address Field (https://www.drupal.org/project/addressfield)
 
