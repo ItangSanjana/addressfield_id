@@ -32,3 +32,56 @@ function addressfield_id_help($path, $arg) {
     return $output;
   }
 }
+
+/**
+ * Implements hook_field_widget_info_alter()
+ */
+function addressfield_id_field_widget_info_alter(&$info) {
+  if (isset($info['addressfield_standard']['settings'])) {
+    $info['addressfield_standard']['settings']['available_administrative_areas'] = array();
+    $info['addressfield_standard']['settings']['available_localities'] = array();
+    $info['addressfield_standard']['settings']['available_dependent_localities'] = array();
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter()
+ */
+function addressfield_id_form_field_ui_field_edit_form_alter(&$form, &$form_state, $form_id) {
+  if ($form['#instance']['widget']['settings']['format_handlers']['address_id'] !== 0) {
+    if ($form['#instance']['widget']['type'] == 'addressfield_standard') {
+      $widget = $form['#instance']['widget'];
+      $defaults = field_info_widget_settings($widget['type']);
+      $settings = array_merge($defaults, $widget['settings']);
+      $available_administrative_areas = $settings['available_administrative_areas'];
+      $available_localities = $settings['available_localities'];
+
+      $form['instance']['widget']['settings']['available_administrative_areas'] = array(
+        '#type' => 'select',
+        '#multiple' => TRUE,
+        '#title' => t('Available administrative areas'),
+        '#description' => t('If no administrative areas are selected, all administrative areas will be available.'),
+        '#options' => addressfield_id_administrative_area(),
+        '#default_value' => $available_administrative_areas,
+      );
+
+      $form['instance']['widget']['settings']['available_localities'] = array(
+        '#type' => 'select',
+        '#multiple' => TRUE,
+        '#title' => t('Available localities'),
+        '#description' => t('If no localities are selected, all localities will be available.'),
+        '#options' => addressfield_id_locality($available_administrative_areas),
+        '#default_value' => $available_localities,
+      );
+
+      $form['instance']['widget']['settings']['available_dependent_localities'] = array(
+        '#type' => 'select',
+        '#multiple' => TRUE,
+        '#title' => t('Available dependent localities'),
+        '#description' => t('If no dependent localities are selected, all dependent localities will be available.'),
+        '#options' => addressfield_id_dependent_locality($available_localities),
+        '#default_value' => $settings['available_dependent_localities'],
+      );
+    }
+  }
+}
