@@ -78,6 +78,8 @@ function addressfield_id_addressfield_format_callback(&$format, $address, $conte
     }
     // If context mode is render.
     else {
+      $format['locality_block']['dependent_locality']['#suffix'] = ',';
+      $format['locality_block']['dependent_locality']['#tag'] = NULL;
       $format['locality_block']['postal_code']['#suffix'] = ',';
       $format['locality_block']['postal_code']['#weight'] = 1;
     }
