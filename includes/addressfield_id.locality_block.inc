@@ -10,7 +10,7 @@
  *   Administrative area array.
  */
 function addressfield_id_administrative_area() {
-  module_load_include('inc', 'addressfield_id', 'addressfield_id.locality_block_list');
+  module_load_include('inc', 'addressfield_id', 'includes/addressfield_id.locality_block_list');
 
   $locality_block = addressfield_id_locality_block();
   $administrative_areas = array_keys($locality_block);
@@ -26,7 +26,7 @@ function addressfield_id_administrative_area() {
  *   Locality array.
  */
 function addressfield_id_locality($address_administrative_area) {
-  module_load_include('inc', 'addressfield_id', 'addressfield_id.locality_block_list');
+  module_load_include('inc', 'addressfield_id', 'includes/addressfield_id.locality_block_list');
 
   $locality_block = addressfield_id_locality_block();
   $localities = array();
@@ -36,7 +36,6 @@ function addressfield_id_locality($address_administrative_area) {
       $locality = array_keys($locality);
       $localities[$administrative_area] = drupal_map_assoc($locality);
     }
-    unset($administrative_area, $locality);
 
     if (is_array($address_administrative_area)) {
       $localities_array = array();
@@ -44,7 +43,7 @@ function addressfield_id_locality($address_administrative_area) {
       foreach ($address_administrative_area as $administrative_area) {
         $localities_array[$administrative_area] = $localities[$administrative_area];
       }
-      unset($administrative_area);
+
       $localities = $localities_array;
     }
     else {
@@ -62,7 +61,7 @@ function addressfield_id_locality($address_administrative_area) {
  *   Dependent locality array.
  */
 function addressfield_id_dependent_locality($address_locality) {
-  module_load_include('inc', 'addressfield_id', 'addressfield_id.locality_block_list');
+  module_load_include('inc', 'addressfield_id', 'includes/addressfield_id.locality_block_list');
 
   $locality_block = addressfield_id_locality_block();
   $dependent_localities = array();
@@ -72,9 +71,7 @@ function addressfield_id_dependent_locality($address_locality) {
       foreach ($administrative_area as $locality => $dependent_locality) {
         $dependent_localities[$locality] = drupal_map_assoc($dependent_locality);
       }
-      unset($locality, $dependent_locality);
     }
-    unset($administrative_area);
 
     if (is_array($address_locality)) {
       $dependent_localities_array = array();
@@ -82,7 +79,7 @@ function addressfield_id_dependent_locality($address_locality) {
       foreach ($address_locality as $locality) {
         $dependent_localities_array[$locality] = $dependent_localities[$locality];
       }
-      unset($locality);
+
       $dependent_localities = $dependent_localities_array;
     }
     else {

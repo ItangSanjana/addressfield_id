@@ -12,7 +12,7 @@
 function addressfield_id_locality_block() {
   $locality_blocks = array(
     "Bali" => array(
-      "Badung (Kabupaten)" => drupal_map_assoc(array(
+      "Badung" => drupal_map_assoc(array(
         t("Abiansemal"),
         t("Kuta"),
         t("Kuta Selatan"),
@@ -20,13 +20,13 @@ function addressfield_id_locality_block() {
         t("Mengwi"),
         t("Petang"),
       )),
-      "Bangli (Kabupaten)" => drupal_map_assoc(array(
+      "Bangli" => drupal_map_assoc(array(
         t("Bangli"),
         t("Kintamani"),
         t("Susut"),
         t("Tembuku"),
       )),
-      "Buleleng (Kabupaten)" => drupal_map_assoc(array(
+      "Buleleng" => drupal_map_assoc(array(
         t("Banjar"),
         t("Buleleng"),
         t("Busungbiu"),
@@ -37,13 +37,13 @@ function addressfield_id_locality_block() {
         t("Sukasada"),
         t("Tejakula"),
       )),
-      "Denpasar (Kota)" => drupal_map_assoc(array(
+      "Denpasar" => drupal_map_assoc(array(
         t("Denpasar Barat"),
         t("Denpasar Selatan"),
         t("Denpasar Timur"),
         t("Denpasar Utara"),
       )),
-      "Gianyar (Kabupaten)" => drupal_map_assoc(array(
+      "Gianyar" => drupal_map_assoc(array(
         t("Belah Batuh (Blahbatuh)"),
         t("Gianyar"),
         t("Payangan"),
@@ -52,14 +52,14 @@ function addressfield_id_locality_block() {
         t("Tegallalang"),
         t("Ubud"),
       )),
-      "Jembrana (Kabupaten)" => drupal_map_assoc(array(
+      "Jembrana" => drupal_map_assoc(array(
         t("Jembrana"),
         t("Melaya"),
         t("Mendoyo"),
         t("Negara"),
         t("Pekutatan"),
       )),
-      "Karangasem (Kabupaten)" => drupal_map_assoc(array(
+      "Karangasem" => drupal_map_assoc(array(
         t("Abang"),
         t("Bebandem"),
         t("Karang Asem"),
@@ -69,13 +69,13 @@ function addressfield_id_locality_block() {
         t("Selat"),
         t("Sidemen"),
       )),
-      "Klungkung (Kabupaten)" => drupal_map_assoc(array(
+      "Klungkung" => drupal_map_assoc(array(
         t("Banjarangkan"),
         t("Dawan"),
         t("Klungkung"),
         t("Nusapenida"),
       )),
-      "Tabanan (Kabupaten)" => drupal_map_assoc(array(
+      "Tabanan" => drupal_map_assoc(array(
         t("Baturiti"),
         t("Kediri"),
         t("Kerambitan"),
@@ -89,7 +89,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Bangka Belitung" => array(
-      "Bangka (Kabupaten)" => drupal_map_assoc(array(
+      "Bangka" => drupal_map_assoc(array(
         t("Bakam"),
         t("Belinyu"),
         t("Mendo Barat"),
@@ -99,7 +99,7 @@ function addressfield_id_locality_block() {
         t("Riau Silip"),
         t("Sungai Liat"),
       )),
-      "Bangka Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Bangka Barat" => drupal_map_assoc(array(
         t("Jebus"),
         t("Kelapa"),
         t("Mentok (Muntok)"),
@@ -107,7 +107,7 @@ function addressfield_id_locality_block() {
         t("Simpang Teritip"),
         t("Tempilang"),
       )),
-      "Bangka Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Bangka Selatan" => drupal_map_assoc(array(
         t("Air Gegas"),
         t("Kepulauan Pongok"),
         t("Lepar Pongok"),
@@ -117,7 +117,7 @@ function addressfield_id_locality_block() {
         t("Toboali"),
         t("Tukak Sadai"),
       )),
-      "Bangka Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Bangka Tengah" => drupal_map_assoc(array(
         t("Koba"),
         t("Lubuk Besar"),
         t("Namang"),
@@ -125,14 +125,14 @@ function addressfield_id_locality_block() {
         t("Simpang Katis"),
         t("Sungai Selan"),
       )),
-      "Belitung (Kabupaten)" => drupal_map_assoc(array(
+      "Belitung" => drupal_map_assoc(array(
         t("Badau"),
         t("Membalong"),
         t("Selat Nasik"),
         t("Sijuk"),
         t("Tanjung Pandan"),
       )),
-      "Belitung Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Belitung Timur" => drupal_map_assoc(array(
         t("Damar"),
         t("Dendang"),
         t("Gantung"),
@@ -141,7 +141,7 @@ function addressfield_id_locality_block() {
         t("Simpang Pesak"),
         t("Simpang Renggiang"),
       )),
-      "Pangkal Pinang (Kota)" => drupal_map_assoc(array(
+      "Pangkal Pinang" => drupal_map_assoc(array(
         t("Bukit Intan"),
         t("Gabek"),
         t("Gerunggang"),
@@ -152,7 +152,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Banten" => array(
-      "Cilegon (Kota)" => drupal_map_assoc(array(
+      "Cilegon" => drupal_map_assoc(array(
         t("Cibeber"),
         t("Cilegon"),
         t("Citangkil"),
@@ -162,7 +162,7 @@ function addressfield_id_locality_block() {
         t("Pulomerak"),
         t("Purwakarta"),
       )),
-      "Lebak (Kabupaten)" => drupal_map_assoc(array(
+      "Lebak" => drupal_map_assoc(array(
         t("Banjarsari"),
         t("Bayah"),
         t("Bojongmanik"),
@@ -192,7 +192,7 @@ function addressfield_id_locality_block() {
         t("Wanasalam"),
         t("Warunggunung"),
       )),
-      "Pandeglang (Kabupaten)" => drupal_map_assoc(array(
+      "Pandeglang" => drupal_map_assoc(array(
         t("Angsana"),
         t("Banjar"),
         t("Bojong"),
@@ -314,7 +314,7 @@ function addressfield_id_locality_block() {
         t("Pinang (Penang)"),
         t("Tangerang"),
       )),
-      "Tangerang Selatan (Kota)" => drupal_map_assoc(array(
+      "Tangerang Selatan" => drupal_map_assoc(array(
         t("Ciputat"),
         t("Ciputat Timur"),
         t("Pamulang"),
@@ -325,7 +325,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Bengkulu" => array(
-      "Bengkulu (Kota)" => drupal_map_assoc(array(
+      "Bengkulu" => drupal_map_assoc(array(
         t("Gading Cempaka"),
         t("Kampung Melayu"),
         t("Muara Bangka Hulu"),
@@ -336,7 +336,7 @@ function addressfield_id_locality_block() {
         t("Sungai Serut"),
         t("Teluk Segara"),
       )),
-      "Bengkulu Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Bengkulu Selatan" => drupal_map_assoc(array(
         t("Air Nipis"),
         t("Bunga Mas"),
         t("Kedurang"),
@@ -349,7 +349,7 @@ function addressfield_id_locality_block() {
         t("Seginim"),
         t("Ulu Manna"),
       )),
-      "Bengkulu Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Bengkulu Tengah" => drupal_map_assoc(array(
         t("Bang Haji"),
         t("Karang Tinggi"),
         t("Merigi Kelindang"),
@@ -361,7 +361,7 @@ function addressfield_id_locality_block() {
         t("Taba Penanjung"),
         t("Talang Empat"),
       )),
-      "Bengkulu Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Bengkulu Utara" => drupal_map_assoc(array(
         t("Air Besi"),
         t("Air Napal"),
         t("Air Padang"),
@@ -380,7 +380,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Agung Palik"),
         t("Ulok Kupai"),
       )),
-      "Kaur (Kabupaten)" => drupal_map_assoc(array(
+      "Kaur" => drupal_map_assoc(array(
         t("Kaur Selatan"),
         t("Kaur Tengah"),
         t("Kaur Utara"),
@@ -397,7 +397,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Kemuning"),
         t("Tetap (Muara Tetap)"),
       )),
-      "Kepahiang (Kabupaten)" => drupal_map_assoc(array(
+      "Kepahiang" => drupal_map_assoc(array(
         t("Bermani Ilir"),
         t("Kebawetan (Kabawetan)"),
         t("Kepahiang"),
@@ -407,7 +407,7 @@ function addressfield_id_locality_block() {
         t("Tebat Karai"),
         t("Ujan Mas"),
       )),
-      "Lebong (Kabupaten)" => drupal_map_assoc(array(
+      "Lebong" => drupal_map_assoc(array(
         t("Amen"),
         t("Bingin Kuning"),
         t("Lebong Atas"),
@@ -421,7 +421,7 @@ function addressfield_id_locality_block() {
         t("Topos"),
         t("Uram Jaya"),
       )),
-      "Muko Muko (Kabupaten)" => drupal_map_assoc(array(
+      "Muko Muko" => drupal_map_assoc(array(
         t("Air Dikit"),
         t("Air Majunto"),
         t("Air Rami"),
@@ -438,7 +438,7 @@ function addressfield_id_locality_block() {
         t("V Koto"),
         t("XIV Koto"),
       )),
-      "Rejang Lebong (Kabupaten)" => drupal_map_assoc(array(
+      "Rejang Lebong" => drupal_map_assoc(array(
         t("Bermani Ulu"),
         t("Bermani Ulu Raya"),
         t("Binduriang"),
@@ -455,7 +455,7 @@ function addressfield_id_locality_block() {
         t("Sindang Daratan"),
         t("Sindang Kelingi"),
       )),
-      "Seluma (Kabupaten)" => drupal_map_assoc(array(
+      "Seluma" => drupal_map_assoc(array(
         t("Air Periukan"),
         t("Ilir Talo"),
         t("Lubuk Sandi"),
@@ -473,7 +473,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "DI Yogyakarta" => array(
-      "Bantul (Kabupaten)" => drupal_map_assoc(array(
+      "Bantul" => drupal_map_assoc(array(
         t("Bambang Lipuro"),
         t("Banguntapan"),
         t("Bantul"),
@@ -492,7 +492,7 @@ function addressfield_id_locality_block() {
         t("Sewon"),
         t("Srandakan"),
       )),
-      "Gunung Kidul (Kabupaten)" => drupal_map_assoc(array(
+      "Gunung Kidul" => drupal_map_assoc(array(
         t("Gedang Sari"),
         t("Girisubo"),
         t("Karangmojo"),
@@ -512,7 +512,7 @@ function addressfield_id_locality_block() {
         t("Tepus"),
         t("Wonosari"),
       )),
-      "Kulon Progo (Kabupaten)" => drupal_map_assoc(array(
+      "Kulon Progo" => drupal_map_assoc(array(
         t("Galur"),
         t("Girimulyo"),
         t("Kalibawang"),
@@ -526,7 +526,7 @@ function addressfield_id_locality_block() {
         t("Temon"),
         t("Wates"),
       )),
-      "Sleman (Kabupaten)" => drupal_map_assoc(array(
+      "Sleman" => drupal_map_assoc(array(
         t("Berbah"),
         t("Cangkringan"),
         t("Depok"),
@@ -545,7 +545,7 @@ function addressfield_id_locality_block() {
         t("Tempel"),
         t("Turi"),
       )),
-      "Yogyakarta (Kota)" => drupal_map_assoc(array(
+      "Yogyakarta" => drupal_map_assoc(array(
         t("Danurejan"),
         t("Gedong Tengen"),
         t("Gondokusuman"),
@@ -563,7 +563,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "DKI Jakarta" => array(
-      "Jakarta Barat (Kota)" => drupal_map_assoc(array(
+      "Jakarta Barat" => drupal_map_assoc(array(
         t("Cengkareng"),
         t("Grogol Petamburan"),
         t("Kalideres"),
@@ -573,7 +573,7 @@ function addressfield_id_locality_block() {
         t("Taman Sari"),
         t("Tambora"),
       )),
-      "Jakarta Pusat (Kota)" => drupal_map_assoc(array(
+      "Jakarta Pusat" => drupal_map_assoc(array(
         t("Cempaka Putih"),
         t("Gambir"),
         t("Johar Baru"),
@@ -583,7 +583,7 @@ function addressfield_id_locality_block() {
         t("Senen"),
         t("Tanah Abang"),
       )),
-      "Jakarta Selatan (Kota)" => drupal_map_assoc(array(
+      "Jakarta Selatan" => drupal_map_assoc(array(
         t("Cilandak"),
         t("Jagakarsa"),
         t("Kebayoran Baru"),
@@ -595,7 +595,7 @@ function addressfield_id_locality_block() {
         t("Setia Budi"),
         t("Tebet"),
       )),
-      "Jakarta Timur (Kota)" => drupal_map_assoc(array(
+      "Jakarta Timur" => drupal_map_assoc(array(
         t("Cakung"),
         t("Cipayung"),
         t("Ciracas"),
@@ -607,7 +607,7 @@ function addressfield_id_locality_block() {
         t("Pasar Rebo"),
         t("Pulo Gadung"),
       )),
-      "Jakarta Utara (Kota)" => drupal_map_assoc(array(
+      "Jakarta Utara" => drupal_map_assoc(array(
         t("Cilincing"),
         t("Kelapa Gading"),
         t("Koja"),
@@ -615,13 +615,13 @@ function addressfield_id_locality_block() {
         t("Penjaringan"),
         t("Tanjung Priok"),
       )),
-      "Kepulauan Seribu (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Seribu" => drupal_map_assoc(array(
         t("Kepulauan Seribu Selatan"),
         t("Kepulauan Seribu Utara"),
       )),
     ),
     "Gorontalo" => array(
-      "Boalemo (Kabupaten)" => drupal_map_assoc(array(
+      "Boalemo" => drupal_map_assoc(array(
         t("Botumoita (Botumoito)"),
         t("Dulupi"),
         t("Mananggu"),
@@ -630,7 +630,7 @@ function addressfield_id_locality_block() {
         t("Tilamuta"),
         t("Wonosari"),
       )),
-      "Bone Bolango (Kabupaten)" => drupal_map_assoc(array(
+      "Bone Bolango" => drupal_map_assoc(array(
         t("Bone"),
         t("Bone Raya"),
         t("Bonepantai"),
@@ -682,7 +682,7 @@ function addressfield_id_locality_block() {
         t("Kota Utara"),
         t("Sipatana"),
       )),
-      "Gorontalo Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Gorontalo Utara" => drupal_map_assoc(array(
         t("Anggrek"),
         t("Atinggola"),
         t("Biau"),
@@ -695,7 +695,7 @@ function addressfield_id_locality_block() {
         t("Tolinggula"),
         t("Tomolito"),
       )),
-      "Pohuwato (Kabupaten)" => drupal_map_assoc(array(
+      "Pohuwato" => drupal_map_assoc(array(
         t("Buntulia"),
         t("Dengilo"),
         t("Duhiadaa"),
@@ -712,7 +712,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Jambi" => array(
-      "Batang Hari (Kabupaten)" => drupal_map_assoc(array(
+      "Batang Hari" => drupal_map_assoc(array(
         t("Bajubang"),
         t("Batin XXIV"),
         t("Maro Sebo Ilir"),
@@ -722,7 +722,7 @@ function addressfield_id_locality_block() {
         t("Muara Tembesi"),
         t("Pemayung"),
       )),
-      "Bungo (Kabupaten)" => drupal_map_assoc(array(
+      "Bungo" => drupal_map_assoc(array(
         t("Bathin II Babeko"),
         t("Bathin II Pelayang"),
         t("Bathin III"),
@@ -741,7 +741,7 @@ function addressfield_id_locality_block() {
         t("Tanah Sepenggal Lintas"),
         t("Tanah Tumbuh"),
       )),
-      "Jambi (Kota)" => drupal_map_assoc(array(
+      "Jambi" => drupal_map_assoc(array(
         t("Danau Teluk"),
         t("Jambi Selatan"),
         t("Jambi Timur"),
@@ -751,7 +751,7 @@ function addressfield_id_locality_block() {
         t("Pelayangan"),
         t("Telanaipura"),
       )),
-      "Kerinci (Kabupaten)" => drupal_map_assoc(array(
+      "Kerinci" => drupal_map_assoc(array(
         t("Air Hangat"),
         t("Air Hangat Barat"),
         t("Air Hangat Timur"),
@@ -769,7 +769,7 @@ function addressfield_id_locality_block() {
         t("Siulak"),
         t("Siulak Mukai"),
       )),
-      "Merangin (Kabupaten)" => drupal_map_assoc(array(
+      "Merangin" => drupal_map_assoc(array(
         t("Bangko"),
         t("Bangko Barat"),
         t("Batang Masumai"),
@@ -795,7 +795,7 @@ function addressfield_id_locality_block() {
         t("Tabir Ulu"),
         t("Tiang Pumpung"),
       )),
-      "Muaro Jambi (Kabupaten)" => drupal_map_assoc(array(
+      "Muaro Jambi" => drupal_map_assoc(array(
         t("Bahar Selatan"),
         t("Bahar Utara"),
         t("Jambi Luar Kota"),
@@ -808,7 +808,7 @@ function addressfield_id_locality_block() {
         t("Sungai Gelam"),
         t("Taman Rajo / Rejo"),
       )),
-      "Sarolangun (Kabupaten)" => drupal_map_assoc(array(
+      "Sarolangun" => drupal_map_assoc(array(
         t("Air Hitam"),
         t("Batang Asai"),
         t("Bathin VIII (Batin VIII)"),
@@ -820,7 +820,7 @@ function addressfield_id_locality_block() {
         t("Sarolangun"),
         t("Singkut"),
       )),
-      "Sungaipenuh (Kota)" => drupal_map_assoc(array(
+      "Sungaipenuh" => drupal_map_assoc(array(
         t("Hamparan Rawang"),
         t("Koto Baru"),
         t("Kumun Debai"),
@@ -830,7 +830,7 @@ function addressfield_id_locality_block() {
         t("Sungai Penuh"),
         t("Tanah Kampung"),
       )),
-      "Tanjung Jabung Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Tanjung Jabung Barat" => drupal_map_assoc(array(
         t("Batang Asam"),
         t("Betara"),
         t("Bram Itam"),
@@ -845,7 +845,7 @@ function addressfield_id_locality_block() {
         t("Tungkal Ilir"),
         t("Tungkal Ulu"),
       )),
-      "Tanjung Jabung Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Tanjung Jabung Timur" => drupal_map_assoc(array(
         t("Berbak"),
         t("Dendang"),
         t("Geragai"),
@@ -858,7 +858,7 @@ function addressfield_id_locality_block() {
         t("Rantau Rasau"),
         t("Sadu"),
       )),
-      "Tebo (Kabupaten)" => drupal_map_assoc(array(
+      "Tebo" => drupal_map_assoc(array(
         t("Muara Tabir"),
         t("Rimbo Bujang"),
         t("Rimbo Ilir"),
@@ -939,7 +939,7 @@ function addressfield_id_locality_block() {
         t("Sumur Bandung"),
         t("Ujung Berung"),
       )),
-      "Bandung Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Bandung Barat" => drupal_map_assoc(array(
         t("Batujajar"),
         t("Cihampelas"),
         t("Cikalong Wetan"),
@@ -1052,7 +1052,7 @@ function addressfield_id_locality_block() {
         t("Bogor Utara - Kota"),
         t("Tanah Sereal"),
       )),
-      "Ciamis (Kabupaten)" => drupal_map_assoc(array(
+      "Ciamis" => drupal_map_assoc(array(
         t("Banjarsari"),
         t("Baregbeg"),
         t("Ciamis"),
@@ -1080,7 +1080,7 @@ function addressfield_id_locality_block() {
         t("Sukamantri"),
         t("Tambaksari"),
       )),
-      "Cianjur (Kabupaten)" => drupal_map_assoc(array(
+      "Cianjur" => drupal_map_assoc(array(
         t("Agrabinta"),
         t("Bojongpicung"),
         t("Campaka"),
@@ -1114,7 +1114,7 @@ function addressfield_id_locality_block() {
         t("Tanggeung"),
         t("Warungkondang"),
       )),
-      "Cimahi (Kota)" => drupal_map_assoc(array(
+      "Cimahi" => drupal_map_assoc(array(
         t("Cimahi Selatan"),
         t("Cimahi Tengah"),
         t("Cimahi Utara"),
@@ -1168,7 +1168,7 @@ function addressfield_id_locality_block() {
         t("Lemahwungkuk"),
         t("Pekalipan"),
       )),
-      "Depok (Kota)" => drupal_map_assoc(array(
+      "Depok" => drupal_map_assoc(array(
         t("Beji"),
         t("Bojongsari"),
         t("Cilodong"),
@@ -1181,7 +1181,7 @@ function addressfield_id_locality_block() {
         t("Sukmajaya"),
         t("Tapos"),
       )),
-      "Garut (Kabupaten)" => drupal_map_assoc(array(
+      "Garut" => drupal_map_assoc(array(
         t("Banjarwangi"),
         t("Banyuresmi"),
         t("Bayongbong"),
@@ -1225,7 +1225,7 @@ function addressfield_id_locality_block() {
         t("Tarogong Kidul"),
         t("Wanaraja"),
       )),
-      "Indramayu (Kabupaten)" => drupal_map_assoc(array(
+      "Indramayu" => drupal_map_assoc(array(
         t("Anjatan"),
         t("Arahan"),
         t("Balongan"),
@@ -1258,7 +1258,7 @@ function addressfield_id_locality_block() {
         t("Tukdana"),
         t("Widasari"),
       )),
-      "Karawang (Kabupaten)" => drupal_map_assoc(array(
+      "Karawang" => drupal_map_assoc(array(
         t("Banyusari"),
         t("Batujaya"),
         t("Ciampel"),
@@ -1290,7 +1290,7 @@ function addressfield_id_locality_block() {
         t("Tirtajaya"),
         t("Tirtamulya"),
       )),
-      "Kuningan (Kabupaten)" => drupal_map_assoc(array(
+      "Kuningan" => drupal_map_assoc(array(
         t("Ciawigebang"),
         t("Cibeureum"),
         t("Cibingbin"),
@@ -1324,7 +1324,7 @@ function addressfield_id_locality_block() {
         t("Sindangagung"),
         t("Subang"),
       )),
-      "Majalengka (Kabupaten)" => drupal_map_assoc(array(
+      "Majalengka" => drupal_map_assoc(array(
         t("Argapura"),
         t("Banjaran"),
         t("Bantarujeg"),
@@ -1352,7 +1352,7 @@ function addressfield_id_locality_block() {
         t("Sumberjaya"),
         t("Talaga"),
       )),
-      "Pangandaran (Kabupaten)" => drupal_map_assoc(array(
+      "Pangandaran" => drupal_map_assoc(array(
         t("Cigugur"),
         t("Cijulang"),
         t("Cimerak"),
@@ -1364,7 +1364,7 @@ function addressfield_id_locality_block() {
         t("Parigi"),
         t("Sidamulih"),
       )),
-      "Purwakarta (Kabupaten)" => drupal_map_assoc(array(
+      "Purwakarta" => drupal_map_assoc(array(
         t("Babakancikao"),
         t("Bojong"),
         t("Bungursari"),
@@ -1383,7 +1383,7 @@ function addressfield_id_locality_block() {
         t("Tegal Waru"),
         t("Wanayasa"),
       )),
-      "Subang (Kabupaten)" => drupal_map_assoc(array(
+      "Subang" => drupal_map_assoc(array(
         t("Binong"),
         t("Blanakan"),
         t("Ciasem"),
@@ -1473,7 +1473,7 @@ function addressfield_id_locality_block() {
         t("Lembursitu"),
         t("Warudoyong"),
       )),
-      "Sumedang (Kabupaten)" => drupal_map_assoc(array(
+      "Sumedang" => drupal_map_assoc(array(
         t("Buahdua"),
         t("Cibugel"),
         t("Cimalaka"),
@@ -1556,7 +1556,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Jawa Tengah" => array(
-      "Banjarnegara (Kabupaten)" => drupal_map_assoc(array(
+      "Banjarnegara" => drupal_map_assoc(array(
         t("Banjarmangu"),
         t("Banjarnegara"),
         t("Batur"),
@@ -1578,7 +1578,7 @@ function addressfield_id_locality_block() {
         t("Wanadadi (Wonodadi)"),
         t("Wanayasa"),
       )),
-      "Banyumas (Kabupaten)" => drupal_map_assoc(array(
+      "Banyumas" => drupal_map_assoc(array(
         t("Ajibarang"),
         t("Banyumas"),
         t("Baturaden"),
@@ -1607,7 +1607,7 @@ function addressfield_id_locality_block() {
         t("Tambak"),
         t("Wangon"),
       )),
-      "Batang (Kabupaten)" => drupal_map_assoc(array(
+      "Batang" => drupal_map_assoc(array(
         t("Bandar"),
         t("Banyuputih"),
         t("Batang"),
@@ -1624,7 +1624,7 @@ function addressfield_id_locality_block() {
         t("Warungasem"),
         t("Wonotunggal"),
       )),
-      "Blora (Kabupaten)" => drupal_map_assoc(array(
+      "Blora" => drupal_map_assoc(array(
         t("Banjarejo"),
         t("Blora kota"),
         t("Bogorejo"),
@@ -1642,7 +1642,7 @@ function addressfield_id_locality_block() {
         t("Todanan"),
         t("Tunjungan"),
       )),
-      "Boyolali (Kabupaten)" => drupal_map_assoc(array(
+      "Boyolali" => drupal_map_assoc(array(
         t("Ampel"),
         t("Andong"),
         t("Banyudono"),
@@ -1663,7 +1663,7 @@ function addressfield_id_locality_block() {
         t("Teras"),
         t("Wonosegoro"),
       )),
-      "Brebes (Kabupaten)" => drupal_map_assoc(array(
+      "Brebes" => drupal_map_assoc(array(
         t("Banjarharjo"),
         t("Bantarkawung"),
         t("Brebes"),
@@ -1682,7 +1682,7 @@ function addressfield_id_locality_block() {
         t("Tonjong"),
         t("Wanasari"),
       )),
-      "Cilacap (Kabupaten)" => drupal_map_assoc(array(
+      "Cilacap" => drupal_map_assoc(array(
         t("Adipala"),
         t("Bantarsari"),
         t("Binangun"),
@@ -1708,7 +1708,7 @@ function addressfield_id_locality_block() {
         t("Sidareja"),
         t("Wanareja"),
       )),
-      "Demak (Kabupaten)" => drupal_map_assoc(array(
+      "Demak" => drupal_map_assoc(array(
         t("Bonang"),
         t("Demak"),
         t("Dempet"),
@@ -1724,7 +1724,7 @@ function addressfield_id_locality_block() {
         t("Wedung"),
         t("Wonosalam"),
       )),
-      "Grobogan (Kabupaten)" => drupal_map_assoc(array(
+      "Grobogan" => drupal_map_assoc(array(
         t("Brati"),
         t("Gabus"),
         t("Geyer"),
@@ -1745,7 +1745,7 @@ function addressfield_id_locality_block() {
         t("Toroh"),
         t("Wirosari"),
       )),
-      "Jepara (Kabupaten)" => drupal_map_assoc(array(
+      "Jepara" => drupal_map_assoc(array(
         t("Bangsri"),
         t("Batealit"),
         t("Donorojo"),
@@ -1763,7 +1763,7 @@ function addressfield_id_locality_block() {
         t("Tahunan"),
         t("Welahan"),
       )),
-      "Karanganyar (Kabupaten)" => drupal_map_assoc(array(
+      "Karanganyar" => drupal_map_assoc(array(
         t("Colomadu"),
         t("Gondangrejo"),
         t("Jaten"),
@@ -1782,7 +1782,7 @@ function addressfield_id_locality_block() {
         t("Tasikmadu"),
         t("Tawangmangu"),
       )),
-      "Kebumen (Kabupaten)" => drupal_map_assoc(array(
+      "Kebumen" => drupal_map_assoc(array(
         t("Adimulyo"),
         t("Alian/Aliyan"),
         t("Ambal"),
@@ -1810,7 +1810,7 @@ function addressfield_id_locality_block() {
         t("Sempor"),
         t("Sruweng"),
       )),
-      "Kendal (Kabupaten)" => drupal_map_assoc(array(
+      "Kendal" => drupal_map_assoc(array(
         t("Boja"),
         t("Brangsong"),
         t("Cepiring"),
@@ -1832,7 +1832,7 @@ function addressfield_id_locality_block() {
         t("Sukorejo"),
         t("Weleri"),
       )),
-      "Klaten (Kabupaten)" => drupal_map_assoc(array(
+      "Klaten" => drupal_map_assoc(array(
         t("Bayat"),
         t("Cawas"),
         t("Ceper"),
@@ -1860,7 +1860,7 @@ function addressfield_id_locality_block() {
         t("Wedi"),
         t("Wonosari"),
       )),
-      "Kudus (Kabupaten)" => drupal_map_assoc(array(
+      "Kudus" => drupal_map_assoc(array(
         t("Bae"),
         t("Dawe"),
         t("Gebog"),
@@ -1899,7 +1899,7 @@ function addressfield_id_locality_block() {
         t("Magelang Tengah"),
         t("Magelang Utara"),
       )),
-      "Pati (Kabupaten)" => drupal_map_assoc(array(
+      "Pati" => drupal_map_assoc(array(
         t("Batangan"),
         t("Cluwak"),
         t("Dukuhseti"),
@@ -1949,7 +1949,7 @@ function addressfield_id_locality_block() {
         t("Pekalongan Timur"),
         t("Pekalongan Utara"),
       )),
-      "Pemalang (Kabupaten)" => drupal_map_assoc(array(
+      "Pemalang" => drupal_map_assoc(array(
         t("Ampelgading"),
         t("Bantarbolang"),
         t("Belik"),
@@ -1965,7 +1965,7 @@ function addressfield_id_locality_block() {
         t("Warungpring"),
         t("Watukumpul"),
       )),
-      "Purbalingga (Kabupaten)" => drupal_map_assoc(array(
+      "Purbalingga" => drupal_map_assoc(array(
         t("Bobotsari"),
         t("Bojongsari"),
         t("Bukateja"),
@@ -1985,7 +1985,7 @@ function addressfield_id_locality_block() {
         t("Purbalingga"),
         t("Rembang"),
       )),
-      "Purworejo (Kabupaten)" => drupal_map_assoc(array(
+      "Purworejo" => drupal_map_assoc(array(
         t("Bagelen"),
         t("Banyuurip"),
         t("Bayan"),
@@ -2003,7 +2003,7 @@ function addressfield_id_locality_block() {
         t("Purwodadi"),
         t("Purworejo"),
       )),
-      "Rembang (Kabupaten)" => drupal_map_assoc(array(
+      "Rembang" => drupal_map_assoc(array(
         t("Bulu"),
         t("Gunem"),
         t("Kaliori"),
@@ -2019,7 +2019,7 @@ function addressfield_id_locality_block() {
         t("Sulang"),
         t("Sumber"),
       )),
-      "Salatiga (Kota)" => drupal_map_assoc(array(
+      "Salatiga" => drupal_map_assoc(array(
         t("Argomulyo"),
         t("Sidomukti"),
         t("Sidorejo"),
@@ -2064,7 +2064,7 @@ function addressfield_id_locality_block() {
         t("Tembalang"),
         t("Tugu"),
       )),
-      "Sragen (Kabupaten)" => drupal_map_assoc(array(
+      "Sragen" => drupal_map_assoc(array(
         t("Gemolong"),
         t("Gesi"),
         t("Gondang"),
@@ -2086,7 +2086,7 @@ function addressfield_id_locality_block() {
         t("Tangen"),
         t("Tanon"),
       )),
-      "Sukoharjo (Kabupaten)" => drupal_map_assoc(array(
+      "Sukoharjo" => drupal_map_assoc(array(
         t("Baki"),
         t("Bendosari"),
         t("Bulu"),
@@ -2100,7 +2100,7 @@ function addressfield_id_locality_block() {
         t("Tawangsari"),
         t("Weru"),
       )),
-      "Surakarta (Solo) (Kota)" => drupal_map_assoc(array(
+      "Surakarta (Solo)" => drupal_map_assoc(array(
         t("Banjarsari"),
         t("Jebres"),
         t("Laweyan"),
@@ -2133,7 +2133,7 @@ function addressfield_id_locality_block() {
         t("Tegal Selatan"),
         t("Tegal Timur"),
       )),
-      "Temanggung (Kabupaten)" => drupal_map_assoc(array(
+      "Temanggung" => drupal_map_assoc(array(
         t("Bansari"),
         t("Bejen"),
         t("Bulu"),
@@ -2155,7 +2155,7 @@ function addressfield_id_locality_block() {
         t("Tretep"),
         t("Wonoboyo"),
       )),
-      "Wonogiri (Kabupaten)" => drupal_map_assoc(array(
+      "Wonogiri" => drupal_map_assoc(array(
         t("Baturetno"),
         t("Batuwarno"),
         t("Bulukerto"),
@@ -2182,7 +2182,7 @@ function addressfield_id_locality_block() {
         t("Wonogiri"),
         t("Wuryantoro"),
       )),
-      "Wonosobo (Kabupaten)" => drupal_map_assoc(array(
+      "Wonosobo" => drupal_map_assoc(array(
         t("Garung"),
         t("Kalibawang"),
         t("Kalikajar"),
@@ -2201,7 +2201,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Jawa Timur" => array(
-      "Bangkalan (Kabupaten)" => drupal_map_assoc(array(
+      "Bangkalan" => drupal_map_assoc(array(
         t("Arosbaya"),
         t("Bangkalan"),
         t("Blega"),
@@ -2221,7 +2221,7 @@ function addressfield_id_locality_block() {
         t("Tanjungbumi"),
         t("Tragah"),
       )),
-      "Banyuwangi (Kabupaten)" => drupal_map_assoc(array(
+      "Banyuwangi" => drupal_map_assoc(array(
         t("Bangorejo"),
         t("Banyuwangi"),
         t("Cluring"),
@@ -2247,7 +2247,7 @@ function addressfield_id_locality_block() {
         t("Tegalsari"),
         t("Wongsorejo"),
       )),
-      "Batu (Kota)" => drupal_map_assoc(array(
+      "Batu" => drupal_map_assoc(array(
         t("Batu"),
         t("Bumiaji"),
         t("Junrejo"),
@@ -2281,7 +2281,7 @@ function addressfield_id_locality_block() {
         t("Sanan Wetan"),
         t("Sukorejo"),
       )),
-      "Bojonegoro (Kabupaten)" => drupal_map_assoc(array(
+      "Bojonegoro" => drupal_map_assoc(array(
         t("Balen"),
         t("Baureno"),
         t("Bojonegoro"),
@@ -2311,7 +2311,7 @@ function addressfield_id_locality_block() {
         t("Temayang"),
         t("Trucuk"),
       )),
-      "Bondowoso (Kabupaten)" => drupal_map_assoc(array(
+      "Bondowoso" => drupal_map_assoc(array(
         t("Binakal"),
         t("Bondowoso"),
         t("Botolinggo"),
@@ -2336,7 +2336,7 @@ function addressfield_id_locality_block() {
         t("Wonosari"),
         t("Wringin"),
       )),
-      "Gresik (Kabupaten)" => drupal_map_assoc(array(
+      "Gresik" => drupal_map_assoc(array(
         t("Balong Panggang"),
         t("Benjeng"),
         t("Bungah"),
@@ -2356,7 +2356,7 @@ function addressfield_id_locality_block() {
         t("Ujung Pangkah"),
         t("Wringin Anom"),
       )),
-      "Jember (Kabupaten)" => drupal_map_assoc(array(
+      "Jember" => drupal_map_assoc(array(
         t("Ajung"),
         t("Ambulu"),
         t("Arjasa"),
@@ -2389,7 +2389,7 @@ function addressfield_id_locality_block() {
         t("Umbulsari"),
         t("Wuluhan"),
       )),
-      "Jombang (Kabupaten)" => drupal_map_assoc(array(
+      "Jombang" => drupal_map_assoc(array(
         t("Bandar Kedung Mulyo"),
         t("Bareng"),
         t("Diwek"),
@@ -2445,7 +2445,7 @@ function addressfield_id_locality_block() {
         t("Mojoroto"),
         t("Pesantren"),
       )),
-      "Lamongan (Kabupaten)" => drupal_map_assoc(array(
+      "Lamongan" => drupal_map_assoc(array(
         t("Babat"),
         t("Bluluk"),
         t("Brondong"),
@@ -2474,7 +2474,7 @@ function addressfield_id_locality_block() {
         t("Tikung"),
         t("Turi"),
       )),
-      "Lumajang (Kabupaten)" => drupal_map_assoc(array(
+      "Lumajang" => drupal_map_assoc(array(
         t("Candipuro"),
         t("Gucialit"),
         t("Jatiroto"),
@@ -2519,7 +2519,7 @@ function addressfield_id_locality_block() {
         t("Manguharjo"),
         t("Taman"),
       )),
-      "Magetan (Kabupaten)" => drupal_map_assoc(array(
+      "Magetan" => drupal_map_assoc(array(
         t("Barat"),
         t("Bendo"),
         t("Karangrejo"),
@@ -2605,7 +2605,7 @@ function addressfield_id_locality_block() {
         t("Magersari"),
         t("Prajurit Kulon"),
       )),
-      "Nganjuk (Kabupaten)" => drupal_map_assoc(array(
+      "Nganjuk" => drupal_map_assoc(array(
         t("Bagor"),
         t("Baron"),
         t("Berbek"),
@@ -2627,7 +2627,7 @@ function addressfield_id_locality_block() {
         t("Tanjunganom"),
         t("Wilangan"),
       )),
-      "Ngawi (Kabupaten)" => drupal_map_assoc(array(
+      "Ngawi" => drupal_map_assoc(array(
         t("Bringin"),
         t("Geneng"),
         t("Gerih"),
@@ -2648,7 +2648,7 @@ function addressfield_id_locality_block() {
         t("Sine"),
         t("Widodaren"),
       )),
-      "Pacitan (Kabupaten)" => drupal_map_assoc(array(
+      "Pacitan" => drupal_map_assoc(array(
         t("Arjosari"),
         t("Bandar"),
         t("Donorojo"),
@@ -2662,7 +2662,7 @@ function addressfield_id_locality_block() {
         t("Tegalombo"),
         t("Tulakan"),
       )),
-      "Pamekasan (Kabupaten)" => drupal_map_assoc(array(
+      "Pamekasan" => drupal_map_assoc(array(
         t("Batumarmar"),
         t("Galis"),
         t("Kadur"),
@@ -2709,7 +2709,7 @@ function addressfield_id_locality_block() {
         t("Panggungrejo"),
         t("Purworejo"),
       )),
-      "Ponorogo (Kabupaten)" => drupal_map_assoc(array(
+      "Ponorogo" => drupal_map_assoc(array(
         t("Babadan"),
         t("Badegan"),
         t("Balong"),
@@ -2765,7 +2765,7 @@ function addressfield_id_locality_block() {
         t("Mayangan"),
         t("Wonoasih"),
       )),
-      "Sampang (Kabupaten)" => drupal_map_assoc(array(
+      "Sampang" => drupal_map_assoc(array(
         t("Banyuates"),
         t("Camplong"),
         t("Jrengik"),
@@ -2781,7 +2781,7 @@ function addressfield_id_locality_block() {
         t("Tambelangan"),
         t("Torjun"),
       )),
-      "Sidoarjo (Kabupaten)" => drupal_map_assoc(array(
+      "Sidoarjo" => drupal_map_assoc(array(
         t("Balongbendo"),
         t("Buduran"),
         t("Candi"),
@@ -2801,7 +2801,7 @@ function addressfield_id_locality_block() {
         t("Waru"),
         t("Wonoayu"),
       )),
-      "Situbondo (Kabupaten)" => drupal_map_assoc(array(
+      "Situbondo" => drupal_map_assoc(array(
         t("Arjasa"),
         t("Asembagus"),
         t("Banyuglugur"),
@@ -2820,7 +2820,7 @@ function addressfield_id_locality_block() {
         t("Suboh"),
         t("Sumbermalang"),
       )),
-      "Sumenep (Kabupaten)" => drupal_map_assoc(array(
+      "Sumenep" => drupal_map_assoc(array(
         t("Ambunten"),
         t("Arjasa"),
         t("Batang Batang"),
@@ -2849,7 +2849,7 @@ function addressfield_id_locality_block() {
         t("Saronggi"),
         t("Talango"),
       )),
-      "Surabaya (Kota)" => drupal_map_assoc(array(
+      "Surabaya" => drupal_map_assoc(array(
         t("Asemrowo"),
         t("Benowo"),
         t("Bubutan"),
@@ -2882,7 +2882,7 @@ function addressfield_id_locality_block() {
         t("Wonocolo"),
         t("Wonokromo"),
       )),
-      "Trenggalek (Kabupaten)" => drupal_map_assoc(array(
+      "Trenggalek" => drupal_map_assoc(array(
         t("Bendungan"),
         t("Dongko"),
         t("Durenan"),
@@ -2898,7 +2898,7 @@ function addressfield_id_locality_block() {
         t("Tugu"),
         t("Watulimo"),
       )),
-      "Tuban (Kabupaten)" => drupal_map_assoc(array(
+      "Tuban" => drupal_map_assoc(array(
         t("Bancar"),
         t("Bangilan"),
         t("Grabagan"),
@@ -2920,7 +2920,7 @@ function addressfield_id_locality_block() {
         t("Tuban"),
         t("Widang"),
       )),
-      "Tulungagung (Kabupaten)" => drupal_map_assoc(array(
+      "Tulungagung" => drupal_map_assoc(array(
         t("Bandung"),
         t("Besuki"),
         t("Boyolangu"),
@@ -2943,7 +2943,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Kalimantan Barat" => array(
-      "Bengkayang (Kabupaten)" => drupal_map_assoc(array(
+      "Bengkayang" => drupal_map_assoc(array(
         t("Bengkayang"),
         t("Capkala"),
         t("Jagoi Babang"),
@@ -2962,7 +2962,7 @@ function addressfield_id_locality_block() {
         t("Teriak"),
         t("Tujuh Belas"),
       )),
-      "Kapuas Hulu (Kabupaten)" => drupal_map_assoc(array(
+      "Kapuas Hulu" => drupal_map_assoc(array(
         t("Badau"),
         t("Batang Lupar"),
         t("Bika"),
@@ -2987,7 +2987,7 @@ function addressfield_id_locality_block() {
         t("Silat Hulu"),
         t("Suhaid"),
       )),
-      "Kayong Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Kayong Utara" => drupal_map_assoc(array(
         t("Kepulauan Karimata"),
         t("Pulau Maya (Pulau Maya Karimata)"),
         t("Seponti"),
@@ -2995,7 +2995,7 @@ function addressfield_id_locality_block() {
         t("Sukadana"),
         t("Teluk Batang"),
       )),
-      "Ketapang (Kabupaten)" => drupal_map_assoc(array(
+      "Ketapang" => drupal_map_assoc(array(
         t("Air Upas"),
         t("Benua Kayong"),
         t("Delta Pawan"),
@@ -3017,7 +3017,7 @@ function addressfield_id_locality_block() {
         t("Sungai Melayu Rayak"),
         t("Tumbang Titi"),
       )),
-      "Kubu Raya (Kabupaten)" => drupal_map_assoc(array(
+      "Kubu Raya" => drupal_map_assoc(array(
         t("Batu Ampar"),
         t("Kuala Mandor-B"),
         t("Kubu"),
@@ -3028,7 +3028,7 @@ function addressfield_id_locality_block() {
         t("Teluk/Telok Pakedai"),
         t("Terentang"),
       )),
-      "Landak (Kabupaten)" => drupal_map_assoc(array(
+      "Landak" => drupal_map_assoc(array(
         t("Air Besar"),
         t("Banyuke Hulu"),
         t("Jelimpo"),
@@ -3043,7 +3043,7 @@ function addressfield_id_locality_block() {
         t("Sengah Temila"),
         t("Sompak"),
       )),
-      "Melawi (Kabupaten)" => drupal_map_assoc(array(
+      "Melawi" => drupal_map_assoc(array(
         t("Belimbing"),
         t("Belimbing Hulu"),
         t("Ella Hilir"),
@@ -3075,7 +3075,7 @@ function addressfield_id_locality_block() {
         t("Pontianak Timur"),
         t("Pontianak Utara"),
       )),
-      "Sambas (Kabupaten)" => drupal_map_assoc(array(
+      "Sambas" => drupal_map_assoc(array(
         t("Galing"),
         t("Jawai"),
         t("Jawai Selatan"),
@@ -3096,7 +3096,7 @@ function addressfield_id_locality_block() {
         t("Tekarang"),
         t("Teluk Keramat"),
       )),
-      "Sanggau (Kabupaten)" => drupal_map_assoc(array(
+      "Sanggau" => drupal_map_assoc(array(
         t("Balai"),
         t("Beduai (Beduwai)"),
         t("Bonti"),
@@ -3113,7 +3113,7 @@ function addressfield_id_locality_block() {
         t("Tayan Hulu"),
         t("Toba"),
       )),
-      "Sekadau (Kabupaten)" => drupal_map_assoc(array(
+      "Sekadau" => drupal_map_assoc(array(
         t("Belitang"),
         t("Belitang Hilir"),
         t("Belitang Hulu"),
@@ -3122,14 +3122,14 @@ function addressfield_id_locality_block() {
         t("Sekadau Hilir"),
         t("Sekadau Hulu"),
       )),
-      "Singkawang (Kota)" => drupal_map_assoc(array(
+      "Singkawang" => drupal_map_assoc(array(
         t("Singkawang Barat"),
         t("Singkawang Selatan"),
         t("Singkawang Tengah"),
         t("Singkawang Timur"),
         t("Singkawang Utara"),
       )),
-      "Sintang (Kabupaten)" => drupal_map_assoc(array(
+      "Sintang" => drupal_map_assoc(array(
         t("Ambalau"),
         t("Binjai Hulu"),
         t("Dedai"),
@@ -3147,7 +3147,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Kalimantan Selatan" => array(
-      "Balangan (Kabupaten)" => drupal_map_assoc(array(
+      "Balangan" => drupal_map_assoc(array(
         t("Awayan"),
         t("Batu Mandi"),
         t("Halong"),
@@ -3178,21 +3178,21 @@ function addressfield_id_locality_block() {
         t("Tatah Makmur"),
         t("Telaga Bauntung"),
       )),
-      "Banjarbaru (Kota)" => drupal_map_assoc(array(
+      "Banjarbaru" => drupal_map_assoc(array(
         t("Banjar Baru Selatan"),
         t("Banjar Baru Utara"),
         t("Cempaka"),
         t("Landasan Ulin"),
         t("Liang Anggang"),
       )),
-      "Banjarmasin (Kota)" => drupal_map_assoc(array(
+      "Banjarmasin" => drupal_map_assoc(array(
         t("Banjarmasin Barat"),
         t("Banjarmasin Selatan"),
         t("Banjarmasin Tengah"),
         t("Banjarmasin Timur"),
         t("Banjarmasin Utara"),
       )),
-      "Barito Kuala (Kabupaten)" => drupal_map_assoc(array(
+      "Barito Kuala" => drupal_map_assoc(array(
         t("Alalak"),
         t("Anjir Muara"),
         t("Anjir Pasar"),
@@ -3211,7 +3211,7 @@ function addressfield_id_locality_block() {
         t("Tamban"),
         t("Wanaraya"),
       )),
-      "Hulu Sungai Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Hulu Sungai Selatan" => drupal_map_assoc(array(
         t("Angkinang"),
         t("Daha Barat"),
         t("Daha Selatan"),
@@ -3224,7 +3224,7 @@ function addressfield_id_locality_block() {
         t("Sungai Raya"),
         t("Telaga Langsat"),
       )),
-      "Hulu Sungai Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Hulu Sungai Tengah" => drupal_map_assoc(array(
         t("Barabai"),
         t("Batang Alai Selatan"),
         t("Batang Alai Timur"),
@@ -3237,7 +3237,7 @@ function addressfield_id_locality_block() {
         t("Limpasu"),
         t("Pandawan"),
       )),
-      "Hulu Sungai Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Hulu Sungai Utara" => drupal_map_assoc(array(
         t("Amuntai Selatan"),
         t("Amuntai Tengah"),
         t("Amuntai Utara"),
@@ -3249,7 +3249,7 @@ function addressfield_id_locality_block() {
         t("Sungai Pandan"),
         t("Sungai Tabukan"),
       )),
-      "Kotabaru (Kabupaten)" => drupal_map_assoc(array(
+      "Kotabaru" => drupal_map_assoc(array(
         t("Hampang"),
         t("Kelumpang Barat"),
         t("Kelumpang Hilir"),
@@ -3272,7 +3272,7 @@ function addressfield_id_locality_block() {
         t("Sampanahan"),
         t("Sungai Durian"),
       )),
-      "Tabalong (Kabupaten)" => drupal_map_assoc(array(
+      "Tabalong" => drupal_map_assoc(array(
         t("Banua Lawas"),
         t("Bintang Ara"),
         t("Haruai"),
@@ -3286,7 +3286,7 @@ function addressfield_id_locality_block() {
         t("Tanta"),
         t("Upau"),
       )),
-      "Tanah Bumbu (Kabupaten)" => drupal_map_assoc(array(
+      "Tanah Bumbu" => drupal_map_assoc(array(
         t("Angsana"),
         t("Batulicin"),
         t("Karang Bintang"),
@@ -3298,7 +3298,7 @@ function addressfield_id_locality_block() {
         t("Simpang Empat"),
         t("Sungai Loban"),
       )),
-      "Tanah Laut (Kabupaten)" => drupal_map_assoc(array(
+      "Tanah Laut" => drupal_map_assoc(array(
         t("Bajuin"),
         t("Bati-Bati"),
         t("Batu Ampar"),
@@ -3311,7 +3311,7 @@ function addressfield_id_locality_block() {
         t("Takisung"),
         t("Tambang Ulang"),
       )),
-      "Tapin (Kabupaten)" => drupal_map_assoc(array(
+      "Tapin" => drupal_map_assoc(array(
         t("Bakarangan"),
         t("Binuang"),
         t("Bungur"),
@@ -3327,7 +3327,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Kalimantan Tengah" => array(
-      "Barito Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Barito Selatan" => drupal_map_assoc(array(
         t("Dusun Hilir"),
         t("Dusun Selatan"),
         t("Dusun Utara"),
@@ -3335,7 +3335,7 @@ function addressfield_id_locality_block() {
         t("Jenamas"),
         t("Karau Kuala"),
       )),
-      "Barito Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Barito Timur" => drupal_map_assoc(array(
         t("Awang"),
         t("Benua Lima"),
         t("Dusun Tengah"),
@@ -3347,7 +3347,7 @@ function addressfield_id_locality_block() {
         t("Pematang Karau"),
         t("Raren Batuah"),
       )),
-      "Barito Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Barito Utara" => drupal_map_assoc(array(
         t("Gunung Purei"),
         t("Gunung Timang"),
         t("Lahei"),
@@ -3358,7 +3358,7 @@ function addressfield_id_locality_block() {
         t("Teweh Tengah"),
         t("Teweh Timur"),
       )),
-      "Gunung Mas (Kabupaten)" => drupal_map_assoc(array(
+      "Gunung Mas" => drupal_map_assoc(array(
         t("Damang Batu"),
         t("Kahayan Hulu Utara"),
         t("Kurun"),
@@ -3372,7 +3372,7 @@ function addressfield_id_locality_block() {
         t("Sepang (Sepang Simin)"),
         t("Tewah"),
       )),
-      "Kapuas (Kabupaten)" => drupal_map_assoc(array(
+      "Kapuas" => drupal_map_assoc(array(
         t("Basarang"),
         t("Bataguh"),
         t("Dadahup"),
@@ -3391,7 +3391,7 @@ function addressfield_id_locality_block() {
         t("Tamban Catur"),
         t("Timpah"),
       )),
-      "Katingan (Kabupaten)" => drupal_map_assoc(array(
+      "Katingan" => drupal_map_assoc(array(
         t("Bukit Raya"),
         t("Kamipang"),
         t("Katingan Hilir"),
@@ -3406,7 +3406,7 @@ function addressfield_id_locality_block() {
         t("Tasik Payawan"),
         t("Tewang Sanggalang Garing (Sangalang)"),
       )),
-      "Kotawaringin Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Kotawaringin Barat" => drupal_map_assoc(array(
         t("Arut Selatan"),
         t("Arut Utara"),
         t("Kotawaringin Lama"),
@@ -3414,7 +3414,7 @@ function addressfield_id_locality_block() {
         t("Pangkalan Banteng"),
         t("Pangkalan Lada"),
       )),
-      "Kotawaringin Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Kotawaringin Timur" => drupal_map_assoc(array(
         t("Antang Kalang"),
         t("Baamang"),
         t("Bukit Santuei"),
@@ -3433,7 +3433,7 @@ function addressfield_id_locality_block() {
         t("Teluk Sampit"),
         t("Tualan Hulu"),
       )),
-      "Lamandau (Kabupaten)" => drupal_map_assoc(array(
+      "Lamandau" => drupal_map_assoc(array(
         t("Batangkawa"),
         t("Belantikan Raya"),
         t("Bulik"),
@@ -3443,7 +3443,7 @@ function addressfield_id_locality_block() {
         t("Menthobi Raya"),
         t("Sematu Jaya"),
       )),
-      "Murung Raya (Kabupaten)" => drupal_map_assoc(array(
+      "Murung Raya" => drupal_map_assoc(array(
         t("Barito Tuhup Raya"),
         t("Laung Tuhup"),
         t("Murung"),
@@ -3455,14 +3455,14 @@ function addressfield_id_locality_block() {
         t("Tanah Siang Selatan"),
         t("Uut Murung"),
       )),
-      "Palangka Raya (Kota)" => drupal_map_assoc(array(
+      "Palangka Raya" => drupal_map_assoc(array(
         t("Bukit Batu"),
         t("Jekan Raya"),
         t("Pahandut"),
         t("Rakumpit"),
         t("Sebangau"),
       )),
-      "Pulang Pisau (Kabupaten)" => drupal_map_assoc(array(
+      "Pulang Pisau" => drupal_map_assoc(array(
         t("Banama Tingang"),
         t("Jabiren Raya"),
         t("Kahayan Hilir"),
@@ -3472,7 +3472,7 @@ function addressfield_id_locality_block() {
         t("Pandih Batu"),
         t("Sebangau Kuala"),
       )),
-      "Seruyan (Kabupaten)" => drupal_map_assoc(array(
+      "Seruyan" => drupal_map_assoc(array(
         t("Batu Ampar"),
         t("Danau Seluluk"),
         t("Danau Sembuluh"),
@@ -3484,7 +3484,7 @@ function addressfield_id_locality_block() {
         t("Seruyan Tengah"),
         t("Suling Tambun"),
       )),
-      "Sukamara (Kabupaten)" => drupal_map_assoc(array(
+      "Sukamara" => drupal_map_assoc(array(
         t("Balai Riam"),
         t("Jelai"),
         t("Pantai Lunci"),
@@ -3493,7 +3493,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Kalimantan Timur" => array(
-      "Balikpapan (Kota)" => drupal_map_assoc(array(
+      "Balikpapan" => drupal_map_assoc(array(
         t("Balikpapan Barat"),
         t("Balikpapan Kota"),
         t("Balikpapan Selatan"),
@@ -3501,7 +3501,7 @@ function addressfield_id_locality_block() {
         t("Balikpapan Timur"),
         t("Balikpapan Utara"),
       )),
-      "Berau (Kabupaten)" => drupal_map_assoc(array(
+      "Berau" => drupal_map_assoc(array(
         t("Batu Putih"),
         t("Biatan"),
         t("Biduk-Biduk"),
@@ -3516,12 +3516,12 @@ function addressfield_id_locality_block() {
         t("Tanjung Redeb"),
         t("Teluk Bayur"),
       )),
-      "Bontang (Kota)" => drupal_map_assoc(array(
+      "Bontang" => drupal_map_assoc(array(
         t("Bontang Barat"),
         t("Bontang Selatan"),
         t("Bontang Utara"),
       )),
-      "Kutai Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Kutai Barat" => drupal_map_assoc(array(
         t("Barong Tongkok"),
         t("Bentian Besar"),
         t("Bongan"),
@@ -3544,7 +3544,7 @@ function addressfield_id_locality_block() {
         t("Siluq Ngurai"),
         t("Tering"),
       )),
-      "Kutai Kartanegara (Kabupaten)" => drupal_map_assoc(array(
+      "Kutai Kartanegara" => drupal_map_assoc(array(
         t("Anggana"),
         t("Kembang Janggut"),
         t("Kenohan"),
@@ -3564,7 +3564,7 @@ function addressfield_id_locality_block() {
         t("Tenggarong"),
         t("Tenggarong Seberang"),
       )),
-      "Kutai Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Kutai Timur" => drupal_map_assoc(array(
         t("Batu Ampar"),
         t("Bengalon"),
         t("Busang"),
@@ -3584,7 +3584,7 @@ function addressfield_id_locality_block() {
         t("Telen"),
         t("Teluk Pandan"),
       )),
-      "Paser (Kabupaten)" => drupal_map_assoc(array(
+      "Paser" => drupal_map_assoc(array(
         t("Batu Engau"),
         t("Batu Sopang"),
         t("Kuaro"),
@@ -3596,13 +3596,13 @@ function addressfield_id_locality_block() {
         t("Tanah Grogot"),
         t("Tanjung Harapan"),
       )),
-      "Penajam Paser Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Penajam Paser Utara" => drupal_map_assoc(array(
         t("Babulu"),
         t("Penajam"),
         t("Sepaku"),
         t("Waru"),
       )),
-      "Samarinda (Kota)" => drupal_map_assoc(array(
+      "Samarinda" => drupal_map_assoc(array(
         t("Loa Janan Ilir"),
         t("Palaran"),
         t("Samarinda Ilir"),
@@ -3616,7 +3616,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Kalimantan Utara" => array(
-      "Bulungan (Bulongan) (Kabupaten)" => drupal_map_assoc(array(
+      "Bulungan (Bulongan)" => drupal_map_assoc(array(
         t("Peso"),
         t("Peso Hilir/Ilir"),
         t("Pulau Bunyu"),
@@ -3628,7 +3628,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Palas Utara"),
         t("Tanjung Selor"),
       )),
-      "Malinau (Kabupaten)" => drupal_map_assoc(array(
+      "Malinau" => drupal_map_assoc(array(
         t("Bahau Hulu"),
         t("Kayan Hilir"),
         t("Kayan Hulu"),
@@ -3645,7 +3645,7 @@ function addressfield_id_locality_block() {
         t("Sungai Boh"),
         t("Sungai Tubu"),
       )),
-      "Nunukan (Kabupaten)" => drupal_map_assoc(array(
+      "Nunukan" => drupal_map_assoc(array(
         t("Krayan"),
         t("Krayan Selatan"),
         t("Lumbis"),
@@ -3662,13 +3662,13 @@ function addressfield_id_locality_block() {
         t("Sembakung"),
         t("Tulin Onsoi"),
       )),
-      "Tana Tidung (Kabupaten)" => drupal_map_assoc(array(
+      "Tana Tidung" => drupal_map_assoc(array(
         t("Betayau"),
         t("Sesayap"),
         t("Sesayap Hilir"),
         t("Tana Lia (Tanah Lia)"),
       )),
-      "Tarakan (Kota)" => drupal_map_assoc(array(
+      "Tarakan" => drupal_map_assoc(array(
         t("Tarakan Barat"),
         t("Tarakan Tengah"),
         t("Tarakan Timur"),
@@ -3676,7 +3676,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Kepulauan Riau" => array(
-      "Batam (Kota)" => drupal_map_assoc(array(
+      "Batam" => drupal_map_assoc(array(
         t("Batam Kota"),
         t("Batu Aji"),
         t("Batu Ampar"),
@@ -3690,7 +3690,7 @@ function addressfield_id_locality_block() {
         t("Sei/Sungai Beduk"),
         t("Sekupang"),
       )),
-      "Bintan (Kabupaten)" => drupal_map_assoc(array(
+      "Bintan" => drupal_map_assoc(array(
         t("Bintan Pesisir"),
         t("Bintan Timur"),
         t("Bintan Utara"),
@@ -3702,7 +3702,7 @@ function addressfield_id_locality_block() {
         t("Teluk Sebong"),
         t("Toapaya"),
       )),
-      "Karimun (Kabupaten)" => drupal_map_assoc(array(
+      "Karimun" => drupal_map_assoc(array(
         t("Belat"),
         t("Buru"),
         t("Durai"),
@@ -3716,7 +3716,7 @@ function addressfield_id_locality_block() {
         t("Tebing"),
         t("Ungar"),
       )),
-      "Kepulauan Anambas (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Anambas" => drupal_map_assoc(array(
         t("Jemaja"),
         t("Jemaja Timur"),
         t("Palmatak"),
@@ -3725,7 +3725,7 @@ function addressfield_id_locality_block() {
         t("Siantan Tengah"),
         t("Siantan Timur"),
       )),
-      "Lingga (Kabupaten)" => drupal_map_assoc(array(
+      "Lingga" => drupal_map_assoc(array(
         t("Lingga"),
         t("Lingga Timur"),
         t("Lingga Utara"),
@@ -3735,7 +3735,7 @@ function addressfield_id_locality_block() {
         t("Singkep Barat"),
         t("Singkep Pesisir"),
       )),
-      "Natuna (Kabupaten)" => drupal_map_assoc(array(
+      "Natuna" => drupal_map_assoc(array(
         t("Bunguran Barat"),
         t("Bunguran Selatan"),
         t("Bunguran Tengah"),
@@ -3749,7 +3749,7 @@ function addressfield_id_locality_block() {
         t("Serasan Timur"),
         t("Subi"),
       )),
-      "Tanjung Pinang (Kota)" => drupal_map_assoc(array(
+      "Tanjung Pinang" => drupal_map_assoc(array(
         t("Bukit Bestari"),
         t("Tanjung Pinang Barat"),
         t("Tanjung Pinang Kota"),
@@ -3757,7 +3757,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Lampung" => array(
-      "Bandar Lampung (Kota)" => drupal_map_assoc(array(
+      "Bandar Lampung" => drupal_map_assoc(array(
         t("Bumi Waras"),
         t("Enggal"),
         t("Kedamaian"),
@@ -3779,7 +3779,7 @@ function addressfield_id_locality_block() {
         t("Telukbetung Utara"),
         t("Way Halim"),
       )),
-      "Lampung Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Lampung Barat" => drupal_map_assoc(array(
         t("Air Hitam"),
         t("Balik Bukit"),
         t("Bandar Negeri Suoh"),
@@ -3796,7 +3796,7 @@ function addressfield_id_locality_block() {
         t("Suoh"),
         t("Way Tenong"),
       )),
-      "Lampung Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Lampung Selatan" => drupal_map_assoc(array(
         t("Bakauheni"),
         t("Candipuro"),
         t("Jati Agung"),
@@ -3815,7 +3815,7 @@ function addressfield_id_locality_block() {
         t("Way Panji"),
         t("Way Sulan"),
       )),
-      "Lampung Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Lampung Tengah" => drupal_map_assoc(array(
         t("Anak Ratu Aji"),
         t("Anak Tuha"),
         t("Bandar Mataram"),
@@ -3845,7 +3845,7 @@ function addressfield_id_locality_block() {
         t("Way Pangubuan (Pengubuan)"),
         t("Way Seputih"),
       )),
-      "Lampung Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Lampung Timur" => drupal_map_assoc(array(
         t("Bandar Sribawono"),
         t("Batanghari"),
         t("Batanghari Nuban"),
@@ -3871,7 +3871,7 @@ function addressfield_id_locality_block() {
         t("Way Bungur (Purbolinggo Utara)"),
         t("Way Jepara"),
       )),
-      "Lampung Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Lampung Utara" => drupal_map_assoc(array(
         t("Abung Barat"),
         t("Abung Kunang"),
         t("Abung Pekurun"),
@@ -3896,7 +3896,7 @@ function addressfield_id_locality_block() {
         t("Sungkai Utara"),
         t("Tanjung Raja"),
       )),
-      "Mesuji (Kabupaten)" => drupal_map_assoc(array(
+      "Mesuji" => drupal_map_assoc(array(
         t("Mesuji"),
         t("Mesuji Timur"),
         t("Panca Jaya"),
@@ -3905,14 +3905,14 @@ function addressfield_id_locality_block() {
         t("Tanjung Raya"),
         t("Way Serdang"),
       )),
-      "Metro (Kota)" => drupal_map_assoc(array(
+      "Metro" => drupal_map_assoc(array(
         t("Metro Barat"),
         t("Metro Pusat"),
         t("Metro Selatan"),
         t("Metro Timur"),
         t("Metro Utara"),
       )),
-      "Pesawaran (Kabupaten)" => drupal_map_assoc(array(
+      "Pesawaran" => drupal_map_assoc(array(
         t("Gedong Tataan (Gedung Tataan)"),
         t("Kedondong"),
         t("Marga Punduh"),
@@ -3923,7 +3923,7 @@ function addressfield_id_locality_block() {
         t("Way Khilau"),
         t("Way Lima"),
       )),
-      "Pesisir Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Pesisir Barat" => drupal_map_assoc(array(
         t("Bengkunat"),
         t("Bengkunat Belimbing"),
         t("Karya Penggawa"),
@@ -3936,7 +3936,7 @@ function addressfield_id_locality_block() {
         t("Pulau Pisang"),
         t("Way Krui"),
       )),
-      "Pringsewu (Kabupaten)" => drupal_map_assoc(array(
+      "Pringsewu" => drupal_map_assoc(array(
         t("Adi Luwih"),
         t("Ambarawa"),
         t("Banyumas"),
@@ -3947,7 +3947,7 @@ function addressfield_id_locality_block() {
         t("Pringsewu"),
         t("Sukoharjo"),
       )),
-      "Tanggamus (Kabupaten)" => drupal_map_assoc(array(
+      "Tanggamus" => drupal_map_assoc(array(
         t("Air Naningan"),
         t("Bandar Negeri Semuong"),
         t("Bulok"),
@@ -3969,7 +3969,7 @@ function addressfield_id_locality_block() {
         t("Ulubelu"),
         t("Wonosobo"),
       )),
-      "Tulang Bawang (Kabupaten)" => drupal_map_assoc(array(
+      "Tulang Bawang" => drupal_map_assoc(array(
         t("Banjar Agung"),
         t("Banjar Baru"),
         t("Banjar Margo"),
@@ -3986,7 +3986,7 @@ function addressfield_id_locality_block() {
         t("Rawajitu Selatan"),
         t("Rawajitu Timur"),
       )),
-      "Tulang Bawang Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Tulang Bawang Barat" => drupal_map_assoc(array(
         t("Gunung Agung"),
         t("Gunung Terang"),
         t("Lambu Kibang"),
@@ -3996,7 +3996,7 @@ function addressfield_id_locality_block() {
         t("Tumijajar"),
         t("Way Kenanga"),
       )),
-      "Way Kanan (Kabupaten)" => drupal_map_assoc(array(
+      "Way Kanan" => drupal_map_assoc(array(
         t("Bahuga"),
         t("Banjit"),
         t("Baradatu"),
@@ -4014,14 +4014,14 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Maluku" => array(
-      "Ambon (Kota)" => drupal_map_assoc(array(
+      "Ambon" => drupal_map_assoc(array(
         t("Baguala"),
         t("Leitimur Selatan"),
         t("Nusaniwe (Nusanive)"),
         t("Sirimau"),
         t("Teluk Ambon"),
       )),
-      "Buru (Kabupaten)" => drupal_map_assoc(array(
+      "Buru" => drupal_map_assoc(array(
         t("Airbuaya"),
         t("Batabual"),
         t("Fena Leisela"),
@@ -4033,7 +4033,7 @@ function addressfield_id_locality_block() {
         t("Waelata"),
         t("Waplau"),
       )),
-      "Buru Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Buru Selatan" => drupal_map_assoc(array(
         t("Ambalau"),
         t("Fena Fafan"),
         t("Kepala Madan"),
@@ -4041,7 +4041,7 @@ function addressfield_id_locality_block() {
         t("Namrole"),
         t("Waesama"),
       )),
-      "Kepulauan Aru (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Aru" => drupal_map_assoc(array(
         t("Aru Selatan"),
         t("Aru Selatan Timur"),
         t("Aru Selatan Utara"),
@@ -4053,7 +4053,7 @@ function addressfield_id_locality_block() {
         t("Pulau-Pulau Aru"),
         t("Sir-Sir"),
       )),
-      "Maluku Barat Daya (Kabupaten)" => drupal_map_assoc(array(
+      "Maluku Barat Daya" => drupal_map_assoc(array(
         t("Damer"),
         t("Dawelor Dawera"),
         t("Kepulauan Romang"),
@@ -4072,7 +4072,7 @@ function addressfield_id_locality_block() {
         t("Wetar Timur"),
         t("Wetar Utara"),
       )),
-      "Maluku Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Maluku Tengah" => drupal_map_assoc(array(
         t("Amahai"),
         t("Banda"),
         t("Leihitu"),
@@ -4092,7 +4092,7 @@ function addressfield_id_locality_block() {
         t("Telutih"),
         t("Teon Nila Serua"),
       )),
-      "Maluku Tenggara (Kabupaten)" => drupal_map_assoc(array(
+      "Maluku Tenggara" => drupal_map_assoc(array(
         t("Hoat Sorbay"),
         t("Kei Besar"),
         t("Kei Besar Selatan"),
@@ -4105,7 +4105,7 @@ function addressfield_id_locality_block() {
         t("Kei Kecil Timur Selatan"),
         t("Manyeuw"),
       )),
-      "Maluku Tenggara Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Maluku Tenggara Barat" => drupal_map_assoc(array(
         t("Kormomolin"),
         t("Molu Maru"),
         t("Nirunmas"),
@@ -4117,7 +4117,7 @@ function addressfield_id_locality_block() {
         t("Wuarlabobar"),
         t("Yaru"),
       )),
-      "Seram Bagian Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Seram Bagian Barat" => drupal_map_assoc(array(
         t("Amalatu"),
         t("Elpaputih"),
         t("Huamual"),
@@ -4130,7 +4130,7 @@ function addressfield_id_locality_block() {
         t("Taniwel"),
         t("Taniwel Timur"),
       )),
-      "Seram Bagian Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Seram Bagian Timur" => drupal_map_assoc(array(
         t("Bula"),
         t("Bula Barat"),
         t("Gorom Timur"),
@@ -4147,7 +4147,7 @@ function addressfield_id_locality_block() {
         t("Wakate"),
         t("Werinama"),
       )),
-      "Tual (Kota)" => drupal_map_assoc(array(
+      "Tual" => drupal_map_assoc(array(
         t("Kur Selatan"),
         t("Pulau Dullah Selatan"),
         t("Pulau Dullah Utara"),
@@ -4156,7 +4156,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Maluku Utara" => array(
-      "Halmahera Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Halmahera Barat" => drupal_map_assoc(array(
         t("Ibu"),
         t("Ibu Selatan"),
         t("Ibu Utara"),
@@ -4166,7 +4166,7 @@ function addressfield_id_locality_block() {
         t("Sahu"),
         t("Sahu Timur"),
       )),
-      "Halmahera Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Halmahera Selatan" => drupal_map_assoc(array(
         t("Bacan"),
         t("Bacan Barat"),
         t("Bacan Barat Utara"),
@@ -4198,7 +4198,7 @@ function addressfield_id_locality_block() {
         t("Obi Timur"),
         t("Obi Utara"),
       )),
-      "Halmahera Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Halmahera Tengah" => drupal_map_assoc(array(
         t("Patani"),
         t("Patani Barat"),
         t("Patani Utara"),
@@ -4208,7 +4208,7 @@ function addressfield_id_locality_block() {
         t("Weda Tengah"),
         t("Weda Utara"),
       )),
-      "Halmahera Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Halmahera Timur" => drupal_map_assoc(array(
         t("Kota Maba"),
         t("Maba"),
         t("Maba Selatan"),
@@ -4220,7 +4220,7 @@ function addressfield_id_locality_block() {
         t("Wasile Timur"),
         t("Wasile Utara"),
       )),
-      "Halmahera Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Halmahera Utara" => drupal_map_assoc(array(
         t("Galela"),
         t("Galela Barat"),
         t("Galela Selatan"),
@@ -4239,7 +4239,7 @@ function addressfield_id_locality_block() {
         t("Tobelo Timur"),
         t("Tobelo Utara"),
       )),
-      "Kepulauan Sula (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Sula" => drupal_map_assoc(array(
         t("Lede"),
         t("Mangoli Barat"),
         t("Mangoli Selatan"),
@@ -4260,14 +4260,14 @@ function addressfield_id_locality_block() {
         t("Taliabu Timur Selatan"),
         t("Taliabu Utara"),
       )),
-      "Pulau Morotai (Kabupaten)" => drupal_map_assoc(array(
+      "Pulau Morotai" => drupal_map_assoc(array(
         t("Morotai Jaya"),
         t("Morotai Selatan"),
         t("Morotai Selatan Barat"),
         t("Morotai Timur"),
         t("Morotai Utara"),
       )),
-      "Ternate (Kota)" => drupal_map_assoc(array(
+      "Ternate" => drupal_map_assoc(array(
         t("Moti (Pulau Moti)"),
         t("Pulau Batang Dua"),
         t("Pulau Hiri"),
@@ -4276,7 +4276,7 @@ function addressfield_id_locality_block() {
         t("Ternate Tengah (Kota)"),
         t("Ternate Utara (Kota)"),
       )),
-      "Tidore Kepulauan (Kota)" => drupal_map_assoc(array(
+      "Tidore Kepulauan" => drupal_map_assoc(array(
         t("Oba"),
         t("Oba Selatan"),
         t("Oba Tengah"),
@@ -4288,7 +4288,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Nanggroe Aceh Darussalam (NAD)" => array(
-      "Aceh Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Barat" => drupal_map_assoc(array(
         t("Arongan Lambalek"),
         t("Bubon"),
         t("Johan Pahlawan"),
@@ -4302,7 +4302,7 @@ function addressfield_id_locality_block() {
         t("Woyla Barat"),
         t("Woyla Timur"),
       )),
-      "Aceh Barat Daya (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Barat Daya" => drupal_map_assoc(array(
         t("Babah Rot"),
         t("Blang Pidie"),
         t("Jeumpa"),
@@ -4313,7 +4313,7 @@ function addressfield_id_locality_block() {
         t("Susoh"),
         t("Tangan-Tangan"),
       )),
-      "Aceh Besar (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Besar" => drupal_map_assoc(array(
         t("Baitussalam"),
         t("Blank Bintang"),
         t("Darul Imarah"),
@@ -4338,7 +4338,7 @@ function addressfield_id_locality_block() {
         t("Simpang Tiga"),
         t("Suka Makmur"),
       )),
-      "Aceh Jaya (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Jaya" => drupal_map_assoc(array(
         t("Darul Hikmah"),
         t("Indra Jaya"),
         t("Jaya"),
@@ -4349,7 +4349,7 @@ function addressfield_id_locality_block() {
         t("Setia Bakti"),
         t("Teunom"),
       )),
-      "Aceh Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Selatan" => drupal_map_assoc(array(
         t("Bakongan"),
         t("Bakongan Timur"),
         t("Kluet Selatan"),
@@ -4369,7 +4369,7 @@ function addressfield_id_locality_block() {
         t("Trumon Tengah"),
         t("Trumon Timur"),
       )),
-      "Aceh Singkil (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Singkil" => drupal_map_assoc(array(
         t("Danau Paris"),
         t("Gunung Meriah (Mariah)"),
         t("Kota Baharu"),
@@ -4382,7 +4382,7 @@ function addressfield_id_locality_block() {
         t("Singkohor"),
         t("Suro Makmur"),
       )),
-      "Aceh Tamiang (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Tamiang" => drupal_map_assoc(array(
         t("Banda Mulia"),
         t("Bandar Pusaka"),
         t("Bendahara"),
@@ -4396,7 +4396,7 @@ function addressfield_id_locality_block() {
         t("Tamiang Hulu"),
         t("Tenggulun"),
       )),
-      "Aceh Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Tengah" => drupal_map_assoc(array(
         t("Atu Lintang"),
         t("Bebesen"),
         t("Bies"),
@@ -4412,7 +4412,7 @@ function addressfield_id_locality_block() {
         t("Rusip Antara"),
         t("Silih Nara"),
       )),
-      "Aceh Tenggara (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Tenggara" => drupal_map_assoc(array(
         t("Babul Makmur"),
         t("Babul Rahmah"),
         t("Babussalam"),
@@ -4430,7 +4430,7 @@ function addressfield_id_locality_block() {
         t("Semadam"),
         t("Tanah Alas"),
       )),
-      "Aceh Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Timur" => drupal_map_assoc(array(
         t("Banda Alam"),
         t("Birem Bayeun"),
         t("Darul Aman"),
@@ -4456,7 +4456,7 @@ function addressfield_id_locality_block() {
         t("Simpang Ulim"),
         t("Sungai Raya"),
       )),
-      "Aceh Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Aceh Utara" => drupal_map_assoc(array(
         t("Baktiya"),
         t("Baktiya Barat"),
         t("Banda Baro"),
@@ -4485,7 +4485,7 @@ function addressfield_id_locality_block() {
         t("Tanah Luas"),
         t("Tanah Pasir"),
       )),
-      "Banda Aceh (Kota)" => drupal_map_assoc(array(
+      "Banda Aceh" => drupal_map_assoc(array(
         t("Baiturrahman"),
         t("Banda Raya"),
         t("Jaya Baru"),
@@ -4496,7 +4496,7 @@ function addressfield_id_locality_block() {
         t("Syiah Kuala"),
         t("Ulee Kareng"),
       )),
-      "Bener Meriah (Kabupaten)" => drupal_map_assoc(array(
+      "Bener Meriah" => drupal_map_assoc(array(
         t("Bandar"),
         t("Bener Kelipah"),
         t("Bukit"),
@@ -4508,7 +4508,7 @@ function addressfield_id_locality_block() {
         t("Timang Gajah"),
         t("Wih Pesam"),
       )),
-      "Bireuen (Kabupaten)" => drupal_map_assoc(array(
+      "Bireuen" => drupal_map_assoc(array(
         t("Ganda Pura"),
         t("Jangka"),
         t("Jeumpa"),
@@ -4527,7 +4527,7 @@ function addressfield_id_locality_block() {
         t("Samalanga"),
         t("Simpang Mamplam"),
       )),
-      "Gayo Lues (Kabupaten)" => drupal_map_assoc(array(
+      "Gayo Lues" => drupal_map_assoc(array(
         t("Blang Jerango"),
         t("Blang Kejeren"),
         t("Blang Pegayon"),
@@ -4540,20 +4540,20 @@ function addressfield_id_locality_block() {
         t("Terangun (Terangon)"),
         t("Teripe/Tripe Jaya"),
       )),
-      "Langsa (Kota)" => drupal_map_assoc(array(
+      "Langsa" => drupal_map_assoc(array(
         t("Langsa Barat"),
         t("Langsa Baro"),
         t("Langsa Kota"),
         t("Langsa Lama"),
         t("Langsa Timur"),
       )),
-      "Lhokseumawe (Kota)" => drupal_map_assoc(array(
+      "Lhokseumawe" => drupal_map_assoc(array(
         t("Banda Sakti"),
         t("Blang Mangat"),
         t("Muara Dua"),
         t("Muara Satu"),
       )),
-      "Nagan Raya (Kabupaten)" => drupal_map_assoc(array(
+      "Nagan Raya" => drupal_map_assoc(array(
         t("Beutong"),
         t("Beutong Ateuh Banggalang"),
         t("Darul Makmur"),
@@ -4565,7 +4565,7 @@ function addressfield_id_locality_block() {
         t("Tadu Raya"),
         t("Tripa Makmur"),
       )),
-      "Pidie (Kabupaten)" => drupal_map_assoc(array(
+      "Pidie" => drupal_map_assoc(array(
         t("Batee"),
         t("Delima"),
         t("Geumpang"),
@@ -4590,7 +4590,7 @@ function addressfield_id_locality_block() {
         t("Tiro/Truseb"),
         t("Titeue"),
       )),
-      "Pidie Jaya (Kabupaten)" => drupal_map_assoc(array(
+      "Pidie Jaya" => drupal_map_assoc(array(
         t("Bandar Baru"),
         t("Bandar Dua"),
         t("Jangka Buya"),
@@ -4600,11 +4600,11 @@ function addressfield_id_locality_block() {
         t("Trienggadeng"),
         t("Ulim"),
       )),
-      "Sabang (Kota)" => drupal_map_assoc(array(
+      "Sabang" => drupal_map_assoc(array(
         t("Sukajaya"),
         t("Sukakarya"),
       )),
-      "Simeulue (Kabupaten)" => drupal_map_assoc(array(
+      "Simeulue" => drupal_map_assoc(array(
         t("Alapan (Alafan)"),
         t("Salang"),
         t("Simeuleu Barat"),
@@ -4616,7 +4616,7 @@ function addressfield_id_locality_block() {
         t("Teupah Selatan"),
         t("Teupah Tengah"),
       )),
-      "Subulussalam (Kota)" => drupal_map_assoc(array(
+      "Subulussalam" => drupal_map_assoc(array(
         t("Longkib"),
         t("Penanggalan"),
         t("Rundeng"),
@@ -4652,7 +4652,7 @@ function addressfield_id_locality_block() {
         t("Rasanae Barat"),
         t("Rasanae Timur"),
       )),
-      "Dompu (Kabupaten)" => drupal_map_assoc(array(
+      "Dompu" => drupal_map_assoc(array(
         t("Dompu"),
         t("Hu'u"),
         t("Kempo"),
@@ -4662,7 +4662,7 @@ function addressfield_id_locality_block() {
         t("Pekat"),
         t("Woja"),
       )),
-      "Lombok Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Lombok Barat" => drupal_map_assoc(array(
         t("Batu Layar"),
         t("Gerung"),
         t("Gunungsari"),
@@ -4674,7 +4674,7 @@ function addressfield_id_locality_block() {
         t("Narmada"),
         t("Sekotong"),
       )),
-      "Lombok Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Lombok Tengah" => drupal_map_assoc(array(
         t("Batukliang"),
         t("Batukliang Utara"),
         t("Janapria"),
@@ -4688,7 +4688,7 @@ function addressfield_id_locality_block() {
         t("Pringgarata"),
         t("Pujut"),
       )),
-      "Lombok Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Lombok Timur" => drupal_map_assoc(array(
         t("Aikmel"),
         t("Jerowaru"),
         t("Keruak"),
@@ -4710,14 +4710,14 @@ function addressfield_id_locality_block() {
         t("Terara"),
         t("Wanasaba"),
       )),
-      "Lombok Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Lombok Utara" => drupal_map_assoc(array(
         t("Bayan"),
         t("Gangga"),
         t("Kayangan"),
         t("Pemenang"),
         t("Tanjung"),
       )),
-      "Mataram (Kota)" => drupal_map_assoc(array(
+      "Mataram" => drupal_map_assoc(array(
         t("Ampenan"),
         t("Cakranegara"),
         t("Mataram"),
@@ -4725,7 +4725,7 @@ function addressfield_id_locality_block() {
         t("Sekarbela"),
         t("Selaparang (Selaprang)"),
       )),
-      "Sumbawa (Kabupaten)" => drupal_map_assoc(array(
+      "Sumbawa" => drupal_map_assoc(array(
         t("Alas"),
         t("Alas Barat"),
         t("Batulanteh"),
@@ -4751,7 +4751,7 @@ function addressfield_id_locality_block() {
         t("Unter Iwes (Unterwiris)"),
         t("Utan"),
       )),
-      "Sumbawa Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Sumbawa Barat" => drupal_map_assoc(array(
         t("Brang Ene"),
         t("Brang Rea"),
         t("Jereweh"),
@@ -4763,7 +4763,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Nusa Tenggara Timur (NTT)" => array(
-      "Alor (Kabupaten)" => drupal_map_assoc(array(
+      "Alor" => drupal_map_assoc(array(
         t("Alor Barat Daya"),
         t("Alor Barat Laut"),
         t("Alor Selatan"),
@@ -4782,7 +4782,7 @@ function addressfield_id_locality_block() {
         t("Pureman"),
         t("Teluk Mutiara"),
       )),
-      "Belu (Kabupaten)" => drupal_map_assoc(array(
+      "Belu" => drupal_map_assoc(array(
         t("Atambua Barat"),
         t("Atambua Kota"),
         t("Atambua Selatan"),
@@ -4808,7 +4808,7 @@ function addressfield_id_locality_block() {
         t("Weliman"),
         t("Wewiku"),
       )),
-      "Ende (Kabupaten)" => drupal_map_assoc(array(
+      "Ende" => drupal_map_assoc(array(
         t("Detukeli"),
         t("Detusoko"),
         t("Ende"),
@@ -4831,7 +4831,7 @@ function addressfield_id_locality_block() {
         t("Wolojita"),
         t("Wolowaru"),
       )),
-      "Flores Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Flores Timur" => drupal_map_assoc(array(
         t("Adonara"),
         t("Adonara Barat"),
         t("Adonara Tengah"),
@@ -4886,7 +4886,7 @@ function addressfield_id_locality_block() {
         t("Maulafa"),
         t("Oebobo"),
       )),
-      "Lembata (Kabupaten)" => drupal_map_assoc(array(
+      "Lembata" => drupal_map_assoc(array(
         t("Atadei"),
         t("Buyasuri (Buyasari)"),
         t("Ile Ape"),
@@ -4897,7 +4897,7 @@ function addressfield_id_locality_block() {
         t("Omesuri"),
         t("Wulandoni (Wulandioni)"),
       )),
-      "Manggarai (Kabupaten)" => drupal_map_assoc(array(
+      "Manggarai" => drupal_map_assoc(array(
         t("Cibal"),
         t("Cibal Barat"),
         t("Langke Rembong"),
@@ -4910,7 +4910,7 @@ function addressfield_id_locality_block() {
         t("Satar Mese Barat"),
         t("Wae Rii"),
       )),
-      "Manggarai Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Manggarai Barat" => drupal_map_assoc(array(
         t("Boleng"),
         t("Komodo"),
         t("Kuwus"),
@@ -4922,7 +4922,7 @@ function addressfield_id_locality_block() {
         t("Sano Nggoang"),
         t("Welak"),
       )),
-      "Manggarai Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Manggarai Timur" => drupal_map_assoc(array(
         t("Borong"),
         t("Elar"),
         t("Elar Selatan"),
@@ -4933,7 +4933,7 @@ function addressfield_id_locality_block() {
         t("Rana Mese"),
         t("Sambi Rampas"),
       )),
-      "Nagekeo (Kabupaten)" => drupal_map_assoc(array(
+      "Nagekeo" => drupal_map_assoc(array(
         t("Aesesa"),
         t("Aesesa Selatan"),
         t("Boawae"),
@@ -4942,7 +4942,7 @@ function addressfield_id_locality_block() {
         t("Nangaroro"),
         t("Wolowae"),
       )),
-      "Ngada (Kabupaten)" => drupal_map_assoc(array(
+      "Ngada" => drupal_map_assoc(array(
         t("Aimere"),
         t("Bajawa"),
         t("Bajawa Utara"),
@@ -4956,7 +4956,7 @@ function addressfield_id_locality_block() {
         t("Soa"),
         t("Wolomeze (Riung Selatan)"),
       )),
-      "Rote Ndao (Kabupaten)" => drupal_map_assoc(array(
+      "Rote Ndao" => drupal_map_assoc(array(
         t("Landu Leko"),
         t("Lobalain"),
         t("Ndao Nuse"),
@@ -4968,7 +4968,7 @@ function addressfield_id_locality_block() {
         t("Rote Tengah"),
         t("Rote Timur"),
       )),
-      "Sabu Raijua (Kabupaten)" => drupal_map_assoc(array(
+      "Sabu Raijua" => drupal_map_assoc(array(
         t("Hawu Mehara"),
         t("Raijua"),
         t("Sabu Barat"),
@@ -4976,7 +4976,7 @@ function addressfield_id_locality_block() {
         t("Sabu Tengah"),
         t("Sabu Timur"),
       )),
-      "Sikka (Kabupaten)" => drupal_map_assoc(array(
+      "Sikka" => drupal_map_assoc(array(
         t("Alok"),
         t("Alok Barat"),
         t("Alok Timur"),
@@ -4999,7 +4999,7 @@ function addressfield_id_locality_block() {
         t("Waiblama"),
         t("Waigete"),
       )),
-      "Sumba Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Sumba Barat" => drupal_map_assoc(array(
         t("Kota Waikabubak"),
         t("Lamboya"),
         t("Lamboya Barat"),
@@ -5007,7 +5007,7 @@ function addressfield_id_locality_block() {
         t("Tana Righu"),
         t("Wanokaka"),
       )),
-      "Sumba Barat Daya (Kabupaten)" => drupal_map_assoc(array(
+      "Sumba Barat Daya" => drupal_map_assoc(array(
         t("Kodi"),
         t("Kodi Balaghar"),
         t("Kodi Bangedo"),
@@ -5020,14 +5020,14 @@ function addressfield_id_locality_block() {
         t("Wewewa Timur"),
         t("Wewewa Utara"),
       )),
-      "Sumba Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Sumba Tengah" => drupal_map_assoc(array(
         t("Katikutana"),
         t("Katikutana Selatan"),
         t("Mamboro"),
         t("Umbu Ratu Nggay"),
         t("Umbu Ratu Nggay Barat"),
       )),
-      "Sumba Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Sumba Timur" => drupal_map_assoc(array(
         t("Haharu"),
         t("Kahaunguweti (Kahaungu Eti)"),
         t("Kambata Mapambuhang"),
@@ -5051,7 +5051,7 @@ function addressfield_id_locality_block() {
         t("Umalulu"),
         t("Wula Waijelu"),
       )),
-      "Timor Tengah Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Timor Tengah Selatan" => drupal_map_assoc(array(
         t("Amanatun Selatan"),
         t("Amanatun Utara"),
         t("Amanuban Barat"),
@@ -5085,7 +5085,7 @@ function addressfield_id_locality_block() {
         t("Tobu"),
         t("Toianas"),
       )),
-      "Timor Tengah Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Timor Tengah Utara" => drupal_map_assoc(array(
         t("Biboki Anleu"),
         t("Biboki Feotleu"),
         t("Biboki Moenleu"),
@@ -5113,7 +5113,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Papua" => array(
-      "Asmat (Kabupaten)" => drupal_map_assoc(array(
+      "Asmat" => drupal_map_assoc(array(
         t("Agats"),
         t("Akat"),
         t("Atsy / Atsj"),
@@ -5134,7 +5134,7 @@ function addressfield_id_locality_block() {
         t("Suru-suru"),
         t("Unir Sirau"),
       )),
-      "Biak Numfor (Kabupaten)" => drupal_map_assoc(array(
+      "Biak Numfor" => drupal_map_assoc(array(
         t("Aimando Padaido"),
         t("Andey (Andei)"),
         t("Biak Barat"),
@@ -5155,7 +5155,7 @@ function addressfield_id_locality_block() {
         t("Yawosi"),
         t("Yendidori"),
       )),
-      "Boven Digoel (Kabupaten)" => drupal_map_assoc(array(
+      "Boven Digoel" => drupal_map_assoc(array(
         t("Ambatkwi (Ambatkui)"),
         t("Arimop"),
         t("Bomakia"),
@@ -5177,14 +5177,14 @@ function addressfield_id_locality_block() {
         t("Waropko"),
         t("Yaniruma"),
       )),
-      "Deiyai (Deliyai) (Kabupaten)" => drupal_map_assoc(array(
+      "Deiyai (Deliyai)" => drupal_map_assoc(array(
         t("Bowobado"),
         t("Kapiraya"),
         t("Tigi"),
         t("Tigi Barat"),
         t("Tigi Timur"),
       )),
-      "Dogiyai (Kabupaten)" => drupal_map_assoc(array(
+      "Dogiyai" => drupal_map_assoc(array(
         t("Dogiyai"),
         t("Kamu"),
         t("Kamu Selatan"),
@@ -5196,7 +5196,7 @@ function addressfield_id_locality_block() {
         t("Piyaiye (Sukikai)"),
         t("Sukikai Selatan"),
       )),
-      "Intan Jaya (Kabupaten)" => drupal_map_assoc(array(
+      "Intan Jaya" => drupal_map_assoc(array(
         t("Agisiga"),
         t("Biandoga"),
         t("Hitadipa"),
@@ -5232,7 +5232,7 @@ function addressfield_id_locality_block() {
         t("Jayapura Utara"),
         t("Muara Tami"),
       )),
-      "Jayawijaya (Kabupaten)" => drupal_map_assoc(array(
+      "Jayawijaya" => drupal_map_assoc(array(
         t("Asologaima (Asalogaima)"),
         t("Asolokobal"),
         t("Asotipo"),
@@ -5274,7 +5274,7 @@ function addressfield_id_locality_block() {
         t("Wouma"),
         t("Yalengga"),
       )),
-      "Keerom (Kabupaten)" => drupal_map_assoc(array(
+      "Keerom" => drupal_map_assoc(array(
         t("Arso"),
         t("Arso Timur"),
         t("Senggi"),
@@ -5283,7 +5283,7 @@ function addressfield_id_locality_block() {
         t("Waris"),
         t("Web"),
       )),
-      "Kepulauan Yapen (Yapen Waropen) (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Yapen (Yapen Waropen)" => drupal_map_assoc(array(
         t("Angkaisera"),
         t("Kepulauan Ambai"),
         t("Kosiwo"),
@@ -5299,7 +5299,7 @@ function addressfield_id_locality_block() {
         t("Yapen Timur"),
         t("Yapen Utara"),
       )),
-      "Lanny Jaya (Kabupaten)" => drupal_map_assoc(array(
+      "Lanny Jaya" => drupal_map_assoc(array(
         t("Balingga"),
         t("Dimba"),
         t("Gamelia"),
@@ -5311,7 +5311,7 @@ function addressfield_id_locality_block() {
         t("Tiom"),
         t("Tiomneri"),
       )),
-      "Mamberamo Raya (Kabupaten)" => drupal_map_assoc(array(
+      "Mamberamo Raya" => drupal_map_assoc(array(
         t("Benuki"),
         t("Mamberamo Hilir/Ilir"),
         t("Mamberamo Hulu/Ulu"),
@@ -5321,14 +5321,14 @@ function addressfield_id_locality_block() {
         t("Sawai"),
         t("Waropen Atas"),
       )),
-      "Mamberamo Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Mamberamo Tengah" => drupal_map_assoc(array(
         t("Eragayam"),
         t("Ilugwa"),
         t("Kelila"),
         t("Kobakma"),
         t("Megabilis (Megambilis)"),
       )),
-      "Mappi (Kabupaten)" => drupal_map_assoc(array(
+      "Mappi" => drupal_map_assoc(array(
         t("Assue"),
         t("Bamgi"),
         t("Citakmitak"),
@@ -5345,7 +5345,7 @@ function addressfield_id_locality_block() {
         t("Venaha"),
         t("Yakomi"),
       )),
-      "Merauke (Kabupaten)" => drupal_map_assoc(array(
+      "Merauke" => drupal_map_assoc(array(
         t("Animha"),
         t("Eligobel"),
         t("Ilyawab"),
@@ -5367,7 +5367,7 @@ function addressfield_id_locality_block() {
         t("Ulilin"),
         t("Waan"),
       )),
-      "Mimika (Kabupaten)" => drupal_map_assoc(array(
+      "Mimika" => drupal_map_assoc(array(
         t("Agimuga"),
         t("Jila"),
         t("Jita"),
@@ -5381,7 +5381,7 @@ function addressfield_id_locality_block() {
         t("Mimika Timur Tengah"),
         t("Tembagapura"),
       )),
-      "Nabire (Kabupaten)" => drupal_map_assoc(array(
+      "Nabire" => drupal_map_assoc(array(
         t("Dipa"),
         t("Makimi"),
         t("Menou"),
@@ -5398,7 +5398,7 @@ function addressfield_id_locality_block() {
         t("Yaro (Yaro Kabisay)"),
         t("Yaur"),
       )),
-      "Nduga (Kabupaten)" => drupal_map_assoc(array(
+      "Nduga" => drupal_map_assoc(array(
         t("Alama"),
         t("Dal"),
         t("Embetpen"),
@@ -5432,7 +5432,7 @@ function addressfield_id_locality_block() {
         t("Yenggelo"),
         t("Yigi"),
       )),
-      "Paniai (Kabupaten)" => drupal_map_assoc(array(
+      "Paniai" => drupal_map_assoc(array(
         t("Aradide"),
         t("Bibida"),
         t("Bogobaida"),
@@ -5444,7 +5444,7 @@ function addressfield_id_locality_block() {
         t("Siriwo"),
         t("Yatamo"),
       )),
-      "Pegunungan Bintang (Kabupaten)" => drupal_map_assoc(array(
+      "Pegunungan Bintang" => drupal_map_assoc(array(
         t("Aboy"),
         t("Alemsom"),
         t("Awinbon"),
@@ -5480,7 +5480,7 @@ function addressfield_id_locality_block() {
         t("Teiraplu"),
         t("Weime"),
       )),
-      "Puncak (Kabupaten)" => drupal_map_assoc(array(
+      "Puncak" => drupal_map_assoc(array(
         t("Agadugume"),
         t("Beoga"),
         t("Doufu"),
@@ -5490,7 +5490,7 @@ function addressfield_id_locality_block() {
         t("Sinak"),
         t("Wangbe"),
       )),
-      "Puncak Jaya (Kabupaten)" => drupal_map_assoc(array(
+      "Puncak Jaya" => drupal_map_assoc(array(
         t("Fawi"),
         t("Ilu"),
         t("Jigonikme"),
@@ -5500,7 +5500,7 @@ function addressfield_id_locality_block() {
         t("Torere"),
         t("Yamo"),
       )),
-      "Sarmi (Kabupaten)" => drupal_map_assoc(array(
+      "Sarmi" => drupal_map_assoc(array(
         t("Apawer Hulu"),
         t("Bonggo"),
         t("Bonggo Timur"),
@@ -5512,14 +5512,14 @@ function addressfield_id_locality_block() {
         t("Sarmi Timur"),
         t("Tor Atas"),
       )),
-      "Supiori (Kabupaten)" => drupal_map_assoc(array(
+      "Supiori" => drupal_map_assoc(array(
         t("Kepulauan Aruri"),
         t("Supiori Barat"),
         t("Supiori Selatan"),
         t("Supiori Timur"),
         t("Supiori Utara"),
       )),
-      "Tolikara (Kabupaten)" => drupal_map_assoc(array(
+      "Tolikara" => drupal_map_assoc(array(
         t("Airgaram"),
         t("Anawi"),
         t("Aweku"),
@@ -5567,7 +5567,7 @@ function addressfield_id_locality_block() {
         t("Yuko"),
         t("Yuneri"),
       )),
-      "Waropen (Kabupaten)" => drupal_map_assoc(array(
+      "Waropen" => drupal_map_assoc(array(
         t("Demba Masirei"),
         t("Inggerus"),
         t("Kirihi"),
@@ -5578,7 +5578,7 @@ function addressfield_id_locality_block() {
         t("Wapoga Inggerus"),
         t("Waropen Bawah"),
       )),
-      "Yahukimo (Kabupaten)" => drupal_map_assoc(array(
+      "Yahukimo" => drupal_map_assoc(array(
         t("Amuma"),
         t("Anggruk"),
         t("Bomela"),
@@ -5631,7 +5631,7 @@ function addressfield_id_locality_block() {
         t("Yahuliambut"),
         t("Yogosem"),
       )),
-      "Yalimo (Kabupaten)" => drupal_map_assoc(array(
+      "Yalimo" => drupal_map_assoc(array(
         t("Abenaho"),
         t("Apalapsili"),
         t("Benawa"),
@@ -5640,7 +5640,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Papua Barat" => array(
-      "Fakfak (Kabupaten)" => drupal_map_assoc(array(
+      "Fakfak" => drupal_map_assoc(array(
         t("Bombarai (Bomberay)"),
         t("Fakfak"),
         t("Fakfak Barat"),
@@ -5651,7 +5651,7 @@ function addressfield_id_locality_block() {
         t("Kramongmongga (Kramamongga)"),
         t("Teluk Patipi"),
       )),
-      "Kaimana (Kabupaten)" => drupal_map_assoc(array(
+      "Kaimana" => drupal_map_assoc(array(
         t("Buruway"),
         t("Kaimana"),
         t("Kambraw (Kamberau)"),
@@ -5660,7 +5660,7 @@ function addressfield_id_locality_block() {
         t("Teluk Etna"),
         t("Yamor"),
       )),
-      "Manokwari (Kabupaten)" => drupal_map_assoc(array(
+      "Manokwari" => drupal_map_assoc(array(
         t("Manokwari Barat"),
         t("Manokwari Selatan"),
         t("Manokwari Timur"),
@@ -5671,7 +5671,7 @@ function addressfield_id_locality_block() {
         t("Tanah Rubuh"),
         t("Warmare"),
       )),
-      "Manokwari Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Manokwari Selatan" => drupal_map_assoc(array(
         t("Dataran Isim"),
         t("Momi Waren"),
         t("Neney (Nenei)"),
@@ -5679,7 +5679,7 @@ function addressfield_id_locality_block() {
         t("Ransiki"),
         t("Tahota (Tohota)"),
       )),
-      "Maybrat (Kabupaten)" => drupal_map_assoc(array(
+      "Maybrat" => drupal_map_assoc(array(
         t("Aifat"),
         t("Aifat Selatan"),
         t("Aifat Timur"),
@@ -5705,7 +5705,7 @@ function addressfield_id_locality_block() {
         t("Mare"),
         t("Mare Selatan"),
       )),
-      "Pegunungan Arfak (Kabupaten)" => drupal_map_assoc(array(
+      "Pegunungan Arfak" => drupal_map_assoc(array(
         t("Anggi"),
         t("Anggi Gida"),
         t("Catubouw"),
@@ -5717,7 +5717,7 @@ function addressfield_id_locality_block() {
         t("Taige"),
         t("Testega"),
       )),
-      "Raja Ampat (Kabupaten)" => drupal_map_assoc(array(
+      "Raja Ampat" => drupal_map_assoc(array(
         t("Ayau"),
         t("Batanta Selatan"),
         t("Batanta Utara"),
@@ -5770,7 +5770,7 @@ function addressfield_id_locality_block() {
         t("Sorong Timur"),
         t("Sorong Utara"),
       )),
-      "Sorong Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Sorong Selatan" => drupal_map_assoc(array(
         t("Fokour"),
         t("Inanwatan (Inawatan)"),
         t("Kais (Matemani Kais)"),
@@ -5785,7 +5785,7 @@ function addressfield_id_locality_block() {
         t("Teminabuan"),
         t("Wayer"),
       )),
-      "Tambrauw (Kabupaten)" => drupal_map_assoc(array(
+      "Tambrauw" => drupal_map_assoc(array(
         t("Abun"),
         t("Amberbaken"),
         t("Fef (Peef)"),
@@ -5799,7 +5799,7 @@ function addressfield_id_locality_block() {
         t("Syujak"),
         t("Yembun"),
       )),
-      "Teluk Bintuni (Kabupaten)" => drupal_map_assoc(array(
+      "Teluk Bintuni" => drupal_map_assoc(array(
         t("Aranday"),
         t("Aroba"),
         t("Babo"),
@@ -5825,7 +5825,7 @@ function addressfield_id_locality_block() {
         t("Wamesa (Idoor)"),
         t("Weriagar"),
       )),
-      "Teluk Wondama (Kabupaten)" => drupal_map_assoc(array(
+      "Teluk Wondama" => drupal_map_assoc(array(
         t("Kuri Wamesa"),
         t("Naikere (Wasior Barat)"),
         t("Nikiwar"),
@@ -5842,7 +5842,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Riau" => array(
-      "Bengkalis (Kabupaten)" => drupal_map_assoc(array(
+      "Bengkalis" => drupal_map_assoc(array(
         t("Bantan"),
         t("Bengkalis"),
         t("Bukit Batu"),
@@ -5852,7 +5852,7 @@ function addressfield_id_locality_block() {
         t("Rupat Utara"),
         t("Siak Kecil"),
       )),
-      "Dumai (Kota)" => drupal_map_assoc(array(
+      "Dumai" => drupal_map_assoc(array(
         t("Bukit Kapur"),
         t("Dumai Barat"),
         t("Dumai Kota"),
@@ -5861,7 +5861,7 @@ function addressfield_id_locality_block() {
         t("Medang Kampai"),
         t("Sungai Sembilan"),
       )),
-      "Indragiri Hilir (Kabupaten)" => drupal_map_assoc(array(
+      "Indragiri Hilir" => drupal_map_assoc(array(
         t("Batang Tuaka"),
         t("Concong"),
         t("Enok"),
@@ -5883,7 +5883,7 @@ function addressfield_id_locality_block() {
         t("Tembilahan Hulu"),
         t("Tempuling"),
       )),
-      "Indragiri Hulu (Kabupaten)" => drupal_map_assoc(array(
+      "Indragiri Hulu" => drupal_map_assoc(array(
         t("Batang Cenaku"),
         t("Batang Gansal"),
         t("Batang Peranap"),
@@ -5899,7 +5899,7 @@ function addressfield_id_locality_block() {
         t("Seberida"),
         t("Sungai Lala"),
       )),
-      "Kampar (Kabupaten)" => drupal_map_assoc(array(
+      "Kampar" => drupal_map_assoc(array(
         t("Bangkinang"),
         t("Bangkinang Seberang"),
         t("Gunung Sahilan"),
@@ -5922,7 +5922,7 @@ function addressfield_id_locality_block() {
         t("Tapung Hulu"),
         t("XIII Koto Kampar"),
       )),
-      "Kepulauan Meranti (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Meranti" => drupal_map_assoc(array(
         t("Merbau"),
         t("Pulaumerbau"),
         t("Rangsang"),
@@ -5933,7 +5933,7 @@ function addressfield_id_locality_block() {
         t("Tebing Tinggi Barat"),
         t("Tebing Tinggi Timur"),
       )),
-      "Kuantan Singingi (Kabupaten)" => drupal_map_assoc(array(
+      "Kuantan Singingi" => drupal_map_assoc(array(
         t("Benai"),
         t("Cerenti"),
         t("Gunung Toar"),
@@ -5950,7 +5950,7 @@ function addressfield_id_locality_block() {
         t("Singingi"),
         t("Singingi Hilir"),
       )),
-      "Pekanbaru (Kota)" => drupal_map_assoc(array(
+      "Pekanbaru" => drupal_map_assoc(array(
         t("Bukit Raya"),
         t("Lima Puluh"),
         t("Marpoyan Damai"),
@@ -5964,7 +5964,7 @@ function addressfield_id_locality_block() {
         t("Tampan"),
         t("Tenayan Raya"),
       )),
-      "Pelalawan (Kabupaten)" => drupal_map_assoc(array(
+      "Pelalawan" => drupal_map_assoc(array(
         t("Bandar Petalangan"),
         t("Bandar Sei Kijang"),
         t("Bunut"),
@@ -5978,7 +5978,7 @@ function addressfield_id_locality_block() {
         t("Teluk Meranti"),
         t("Ukui"),
       )),
-      "Rokan Hilir (Kabupaten)" => drupal_map_assoc(array(
+      "Rokan Hilir" => drupal_map_assoc(array(
         t("Bagan Sinembah"),
         t("Bangko"),
         t("Bangko Pusaka (Pusako)"),
@@ -5995,7 +5995,7 @@ function addressfield_id_locality_block() {
         t("Tanah Putih"),
         t("Tanah Putih Tanjung Melawan"),
       )),
-      "Rokan Hulu (Kabupaten)" => drupal_map_assoc(array(
+      "Rokan Hulu" => drupal_map_assoc(array(
         t("Bangun Purba"),
         t("Bonai Darussalam"),
         t("Kabun"),
@@ -6013,7 +6013,7 @@ function addressfield_id_locality_block() {
         t("Tandun"),
         t("Ujung Batu"),
       )),
-      "Siak (Kabupaten)" => drupal_map_assoc(array(
+      "Siak" => drupal_map_assoc(array(
         t("Bunga Raya"),
         t("Dayun"),
         t("Kandis"),
@@ -6031,7 +6031,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sulawesi Barat" => array(
-      "Majene (Kabupaten)" => drupal_map_assoc(array(
+      "Majene" => drupal_map_assoc(array(
         t("Banggae"),
         t("Banggae Timur"),
         t("Malunda"),
@@ -6041,7 +6041,7 @@ function addressfield_id_locality_block() {
         t("Tubo (Tubo Sendana)"),
         t("Ulumunda"),
       )),
-      "Mamasa (Kabupaten)" => drupal_map_assoc(array(
+      "Mamasa" => drupal_map_assoc(array(
         t("Aralle (Arrale)"),
         t("Balla"),
         t("Bambang"),
@@ -6060,7 +6060,7 @@ function addressfield_id_locality_block() {
         t("Tanduk Kalua"),
         t("Tawalian"),
       )),
-      "Mamuju (Kabupaten)" => drupal_map_assoc(array(
+      "Mamuju" => drupal_map_assoc(array(
         t("Bonehau"),
         t("Budong-Budong"),
         t("Kalukku"),
@@ -6078,7 +6078,7 @@ function addressfield_id_locality_block() {
         t("Tommo"),
         t("Topoyo"),
       )),
-      "Mamuju Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Mamuju Utara" => drupal_map_assoc(array(
         t("Bambaira"),
         t("Bambalamotu"),
         t("Baras"),
@@ -6092,7 +6092,7 @@ function addressfield_id_locality_block() {
         t("Sarudu"),
         t("Tikke Raya"),
       )),
-      "Polewali Mandar (Kabupaten)" => drupal_map_assoc(array(
+      "Polewali Mandar" => drupal_map_assoc(array(
         t("Alu (Allu)"),
         t("Anreapi"),
         t("Balanipa"),
@@ -6112,7 +6112,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sulawesi Selatan" => array(
-      "Bantaeng (Kabupaten)" => drupal_map_assoc(array(
+      "Bantaeng" => drupal_map_assoc(array(
         t("Bantaeng"),
         t("Bissappu"),
         t("Eremerasa"),
@@ -6122,7 +6122,7 @@ function addressfield_id_locality_block() {
         t("Tompobulu"),
         t("Uluere"),
       )),
-      "Barru (Kabupaten)" => drupal_map_assoc(array(
+      "Barru" => drupal_map_assoc(array(
         t("Balusu"),
         t("Barru"),
         t("Mallusetasi"),
@@ -6131,7 +6131,7 @@ function addressfield_id_locality_block() {
         t("Tanete Riaja"),
         t("Tanete Rilau"),
       )),
-      "Bone (Kabupaten)" => drupal_map_assoc(array(
+      "Bone" => drupal_map_assoc(array(
         t("Ajangale"),
         t("Amali"),
         t("Awangpone"),
@@ -6160,7 +6160,7 @@ function addressfield_id_locality_block() {
         t("Tonra"),
         t("Ulaweng"),
       )),
-      "Bulukumba (Kabupaten)" => drupal_map_assoc(array(
+      "Bulukumba" => drupal_map_assoc(array(
         t("Bonto Bahari"),
         t("Bontotiro"),
         t("Bulukumba (Bulukumpa)"),
@@ -6172,7 +6172,7 @@ function addressfield_id_locality_block() {
         t("Ujung Bulu"),
         t("Ujung Loe"),
       )),
-      "Enrekang (Kabupaten)" => drupal_map_assoc(array(
+      "Enrekang" => drupal_map_assoc(array(
         t("Alla"),
         t("Anggeraja"),
         t("Baraka"),
@@ -6186,7 +6186,7 @@ function addressfield_id_locality_block() {
         t("Malua"),
         t("Masalle"),
       )),
-      "Gowa (Kabupaten)" => drupal_map_assoc(array(
+      "Gowa" => drupal_map_assoc(array(
         t("Bajeng"),
         t("Bajeng Barat"),
         t("Barombong"),
@@ -6206,7 +6206,7 @@ function addressfield_id_locality_block() {
         t("Tombolo Pao"),
         t("Tompobulu"),
       )),
-      "Jeneponto (Kabupaten)" => drupal_map_assoc(array(
+      "Jeneponto" => drupal_map_assoc(array(
         t("Arungkeke"),
         t("Bangkala"),
         t("Bangkala Barat"),
@@ -6219,7 +6219,7 @@ function addressfield_id_locality_block() {
         t("Tarowang"),
         t("Turatea"),
       )),
-      "Luwu (Kabupaten)" => drupal_map_assoc(array(
+      "Luwu" => drupal_map_assoc(array(
         t("Bajo"),
         t("Bajo Barat"),
         t("Basse Sangtempe Utara"),
@@ -6243,7 +6243,7 @@ function addressfield_id_locality_block() {
         t("Walenrang Timur"),
         t("Walenrang Utara"),
       )),
-      "Luwu Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Luwu Timur" => drupal_map_assoc(array(
         t("Angkona"),
         t("Burau"),
         t("Kalaena"),
@@ -6256,7 +6256,7 @@ function addressfield_id_locality_block() {
         t("Wasuponda"),
         t("Wotu"),
       )),
-      "Luwu Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Luwu Utara" => drupal_map_assoc(array(
         t("Baebunta"),
         t("Bone-Bone"),
         t("Limbong"),
@@ -6270,7 +6270,7 @@ function addressfield_id_locality_block() {
         t("Sukamaju"),
         t("Tana Lili"),
       )),
-      "Makassar (Kota)" => drupal_map_assoc(array(
+      "Makassar" => drupal_map_assoc(array(
         t("Biring Kanaya"),
         t("Bontoala"),
         t("Makassar"),
@@ -6286,7 +6286,7 @@ function addressfield_id_locality_block() {
         t("Ujung Tanah"),
         t("Wajo"),
       )),
-      "Maros (Kabupaten)" => drupal_map_assoc(array(
+      "Maros" => drupal_map_assoc(array(
         t("Bantimurung"),
         t("Bontoa (Maros Utara)"),
         t("Camba"),
@@ -6302,7 +6302,7 @@ function addressfield_id_locality_block() {
         t("Tompu Bulu"),
         t("Turikale"),
       )),
-      "Palopo (Kota)" => drupal_map_assoc(array(
+      "Palopo" => drupal_map_assoc(array(
         t("Bara"),
         t("Mungkajang"),
         t("Sendana"),
@@ -6313,7 +6313,7 @@ function addressfield_id_locality_block() {
         t("Wara Timur"),
         t("Wara Utara"),
       )),
-      "Pangkajene Kepulauan (Kabupaten)" => drupal_map_assoc(array(
+      "Pangkajene Kepulauan" => drupal_map_assoc(array(
         t("Balocci"),
         t("Bungoro"),
         t("Labakkang"),
@@ -6328,13 +6328,13 @@ function addressfield_id_locality_block() {
         t("Segeri"),
         t("Tondong Tallasa"),
       )),
-      "Parepare (Kota)" => drupal_map_assoc(array(
+      "Parepare" => drupal_map_assoc(array(
         t("Bacukiki"),
         t("Bacukiki Barat"),
         t("Soreang"),
         t("Ujung"),
       )),
-      "Pinrang (Kabupaten)" => drupal_map_assoc(array(
+      "Pinrang" => drupal_map_assoc(array(
         t("Batulappa"),
         t("Cempa"),
         t("Duampanua"),
@@ -6348,7 +6348,7 @@ function addressfield_id_locality_block() {
         t("Tiroang"),
         t("Watang Sawitto"),
       )),
-      "Selayar (Kepulauan Selayar) (Kabupaten)" => drupal_map_assoc(array(
+      "Selayar (Kepulauan Selayar)" => drupal_map_assoc(array(
         t("Benteng"),
         t("Bontoharu"),
         t("Bontomanai"),
@@ -6361,7 +6361,7 @@ function addressfield_id_locality_block() {
         t("Pasimasunggu Timur"),
         t("Takabonerate"),
       )),
-      "Sidenreng Rappang/Rapang (Kabupaten)" => drupal_map_assoc(array(
+      "Sidenreng Rappang/Rapang" => drupal_map_assoc(array(
         t("Baranti"),
         t("Dua Pitue"),
         t("Kulo"),
@@ -6374,7 +6374,7 @@ function addressfield_id_locality_block() {
         t("Watang Pulu"),
         t("Wattang Sidenreng (Watang Sidenreng)"),
       )),
-      "Sinjai (Kabupaten)" => drupal_map_assoc(array(
+      "Sinjai" => drupal_map_assoc(array(
         t("Bulupoddo"),
         t("Pulau Sembilan"),
         t("Sinjai Barat"),
@@ -6385,7 +6385,7 @@ function addressfield_id_locality_block() {
         t("Sinjai Utara"),
         t("Tellu Limpoe"),
       )),
-      "Soppeng (Kabupaten)" => drupal_map_assoc(array(
+      "Soppeng" => drupal_map_assoc(array(
         t("Citta"),
         t("Donri-Donri"),
         t("Ganra"),
@@ -6395,7 +6395,7 @@ function addressfield_id_locality_block() {
         t("Mario Riawa"),
         t("Mario Riwawo"),
       )),
-      "Takalar (Kabupaten)" => drupal_map_assoc(array(
+      "Takalar" => drupal_map_assoc(array(
         t("Galesong"),
         t("Galesong Selatan"),
         t("Galesong Utara"),
@@ -6406,7 +6406,7 @@ function addressfield_id_locality_block() {
         t("Polombangkeng Utara (Polobangkeng)"),
         t("Sanrobone"),
       )),
-      "Tana Toraja (Kabupaten)" => drupal_map_assoc(array(
+      "Tana Toraja" => drupal_map_assoc(array(
         t("Bittuang"),
         t("Bonggakaradeng"),
         t("Gandang Batu Sillanan"),
@@ -6427,7 +6427,7 @@ function addressfield_id_locality_block() {
         t("Sangalla Utara"),
         t("Simbuang"),
       )),
-      "Toraja Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Toraja Utara" => drupal_map_assoc(array(
         t("Awan Rante Karua"),
         t("Balusu"),
         t("Bangkelekila"),
@@ -6450,7 +6450,7 @@ function addressfield_id_locality_block() {
         t("Tikala"),
         t("Tondon"),
       )),
-      "Wajo (Kabupaten)" => drupal_map_assoc(array(
+      "Wajo" => drupal_map_assoc(array(
         t("Belawa"),
         t("Bola"),
         t("Gilireng"),
@@ -6468,7 +6468,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sulawesi Tengah" => array(
-      "Banggai (Kabupaten)" => drupal_map_assoc(array(
+      "Banggai" => drupal_map_assoc(array(
         t("Balantak"),
         t("Balantak Selatan"),
         t("Balantak Utara"),
@@ -6493,7 +6493,7 @@ function addressfield_id_locality_block() {
         t("Toili"),
         t("Toili Barat"),
       )),
-      "Banggai Kepulauan (Kabupaten)" => drupal_map_assoc(array(
+      "Banggai Kepulauan" => drupal_map_assoc(array(
         t("Banggai"),
         t("Banggai Selatan"),
         t("Banggai Tengah"),
@@ -6514,7 +6514,7 @@ function addressfield_id_locality_block() {
         t("Totikum (Totikung)"),
         t("Totikum Selatan"),
       )),
-      "Buol (Kabupaten)" => drupal_map_assoc(array(
+      "Buol" => drupal_map_assoc(array(
         t("Biau"),
         t("Bokat"),
         t("Bukal"),
@@ -6527,7 +6527,7 @@ function addressfield_id_locality_block() {
         t("Paleleh Barat"),
         t("Tiloan"),
       )),
-      "Donggala (Kabupaten)" => drupal_map_assoc(array(
+      "Donggala" => drupal_map_assoc(array(
         t("Balaesang"),
         t("Balaesang Tanjung"),
         t("Banawa"),
@@ -6545,7 +6545,7 @@ function addressfield_id_locality_block() {
         t("Sojol Utara"),
         t("Tanantovea"),
       )),
-      "Morowali (Kabupaten)" => drupal_map_assoc(array(
+      "Morowali" => drupal_map_assoc(array(
         t("Bahodopi"),
         t("Bumi Raya"),
         t("Bungku Barat"),
@@ -6566,7 +6566,7 @@ function addressfield_id_locality_block() {
         t("Soyo Jaya"),
         t("Wita Ponda"),
       )),
-      "Palu (Kota)" => drupal_map_assoc(array(
+      "Palu" => drupal_map_assoc(array(
         t("Mantikulore"),
         t("Palu Barat"),
         t("Palu Selatan"),
@@ -6576,7 +6576,7 @@ function addressfield_id_locality_block() {
         t("Tawaeli"),
         t("Ulujadi"),
       )),
-      "Parigi Moutong (Kabupaten)" => drupal_map_assoc(array(
+      "Parigi Moutong" => drupal_map_assoc(array(
         t("Ampibabo"),
         t("Balinggi"),
         t("Bolano"),
@@ -6600,7 +6600,7 @@ function addressfield_id_locality_block() {
         t("Toribulu"),
         t("Torue"),
       )),
-      "Poso (Kabupaten)" => drupal_map_assoc(array(
+      "Poso" => drupal_map_assoc(array(
         t("Lage"),
         t("Lore Barat"),
         t("Lore Piore"),
@@ -6621,7 +6621,7 @@ function addressfield_id_locality_block() {
         t("Poso Pesisir Selatan"),
         t("Poso Pesisir Utara"),
       )),
-      "Sigi (Kabupaten)" => drupal_map_assoc(array(
+      "Sigi" => drupal_map_assoc(array(
         t("Dolo"),
         t("Dolo Barat"),
         t("Dolo Selatan"),
@@ -6638,7 +6638,7 @@ function addressfield_id_locality_block() {
         t("Sigi Biromaru"),
         t("Tanambulava"),
       )),
-      "Tojo Una-Una (Kabupaten)" => drupal_map_assoc(array(
+      "Tojo Una-Una" => drupal_map_assoc(array(
         t("Ampana Kota"),
         t("Ampana Tete"),
         t("Togean"),
@@ -6649,7 +6649,7 @@ function addressfield_id_locality_block() {
         t("Walea Besar"),
         t("Walea Kepulauan"),
       )),
-      "Toli-Toli (Kabupaten)" => drupal_map_assoc(array(
+      "Toli-Toli" => drupal_map_assoc(array(
         t("Baolan"),
         t("Basidondo"),
         t("Dako Pamean"),
@@ -6663,7 +6663,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sulawesi Tenggara" => array(
-      "Bau-Bau (Kota)" => drupal_map_assoc(array(
+      "Bau-Bau" => drupal_map_assoc(array(
         t("Batupoaro"),
         t("Betoambari"),
         t("Bungi"),
@@ -6673,7 +6673,7 @@ function addressfield_id_locality_block() {
         t("Sora Walio (Sorowalio)"),
         t("Wolio"),
       )),
-      "Bombana (Kabupaten)" => drupal_map_assoc(array(
+      "Bombana" => drupal_map_assoc(array(
         t("Kabaena"),
         t("Kabaena Barat"),
         t("Kabaena Selatan"),
@@ -6697,7 +6697,7 @@ function addressfield_id_locality_block() {
         t("Rumbia Tengah"),
         t("Tontonunu (Tontonuwu)"),
       )),
-      "Buton (Kabupaten)" => drupal_map_assoc(array(
+      "Buton" => drupal_map_assoc(array(
         t("Batauga"),
         t("Batu Atas"),
         t("Gu"),
@@ -6720,7 +6720,7 @@ function addressfield_id_locality_block() {
         t("Wabula"),
         t("Wolowa"),
       )),
-      "Buton Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Buton Utara" => drupal_map_assoc(array(
         t("Bonegunu"),
         t("Kambowa"),
         t("Kulisusu (Kalingsusu/Kalisusu)"),
@@ -6728,7 +6728,7 @@ function addressfield_id_locality_block() {
         t("Kulisusu Utara"),
         t("Wakorumba Utara"),
       )),
-      "Kendari (Kota)" => drupal_map_assoc(array(
+      "Kendari" => drupal_map_assoc(array(
         t("Abeli"),
         t("Baruga"),
         t("Kadia"),
@@ -6740,7 +6740,7 @@ function addressfield_id_locality_block() {
         t("Puuwatu"),
         t("Wua-Wua"),
       )),
-      "Kolaka (Kabupaten)" => drupal_map_assoc(array(
+      "Kolaka" => drupal_map_assoc(array(
         t("Baula"),
         t("Kolaka"),
         t("Ladongi"),
@@ -6762,7 +6762,7 @@ function addressfield_id_locality_block() {
         t("Wolo"),
         t("Wundulako"),
       )),
-      "Kolaka Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Kolaka Utara" => drupal_map_assoc(array(
         t("Batu Putih"),
         t("Katoi"),
         t("Kodeoha"),
@@ -6779,7 +6779,7 @@ function addressfield_id_locality_block() {
         t("Watunohu"),
         t("Wawo"),
       )),
-      "Konawe (Kabupaten)" => drupal_map_assoc(array(
+      "Konawe" => drupal_map_assoc(array(
         t("Abuki"),
         t("Amonggedo"),
         t("Anggaberi"),
@@ -6811,7 +6811,7 @@ function addressfield_id_locality_block() {
         t("Wawotobi"),
         t("Wonggeduku"),
       )),
-      "Konawe Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Konawe Selatan" => drupal_map_assoc(array(
         t("Andoolo"),
         t("Angata"),
         t("Baito"),
@@ -6835,7 +6835,7 @@ function addressfield_id_locality_block() {
         t("Tinanggea"),
         t("Wolasi"),
       )),
-      "Konawe Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Konawe Utara" => drupal_map_assoc(array(
         t("Andowia"),
         t("Asera"),
         t("Langgikima"),
@@ -6847,7 +6847,7 @@ function addressfield_id_locality_block() {
         t("Sawa"),
         t("Wiwirano"),
       )),
-      "Muna (Kabupaten)" => drupal_map_assoc(array(
+      "Muna" => drupal_map_assoc(array(
         t("Barangka"),
         t("Batalaiwaru (Batalaiworu)"),
         t("Batukara"),
@@ -6882,7 +6882,7 @@ function addressfield_id_locality_block() {
         t("Wakorumba Selatan"),
         t("Watopute"),
       )),
-      "Wakatobi (Kabupaten)" => drupal_map_assoc(array(
+      "Wakatobi" => drupal_map_assoc(array(
         t("Binongko"),
         t("Kaledupa"),
         t("Kaledupa Selatan"),
@@ -6894,7 +6894,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sulawesi Utara" => array(
-      "Bitung (Kota)" => drupal_map_assoc(array(
+      "Bitung" => drupal_map_assoc(array(
         t("Aertembaga (Bitung Timur)"),
         t("Girian"),
         t("Lembeh Selatan (Bitung Selatan)"),
@@ -6904,7 +6904,7 @@ function addressfield_id_locality_block() {
         t("Matuari (Bitung Barat)"),
         t("Ranowulu (Bitung Utara)"),
       )),
-      "Bolaang Mongondow (Bolmong) (Kabupaten)" => drupal_map_assoc(array(
+      "Bolaang Mongondow (Bolmong)" => drupal_map_assoc(array(
         t("Bilalang"),
         t("Bolaang"),
         t("Bolaang Timur"),
@@ -6921,21 +6921,21 @@ function addressfield_id_locality_block() {
         t("Poigar"),
         t("Sangtombolang"),
       )),
-      "Bolaang Mongondow Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Bolaang Mongondow Selatan" => drupal_map_assoc(array(
         t("Bolaang Uki"),
         t("Pinolosian"),
         t("Pinolosian Tengah"),
         t("Pinolosian Timur"),
         t("Posigadan"),
       )),
-      "Bolaang Mongondow Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Bolaang Mongondow Timur" => drupal_map_assoc(array(
         t("Kotabunan"),
         t("Modayag"),
         t("Modayag Barat"),
         t("Nuangan"),
         t("Tutuyan"),
       )),
-      "Bolaang Mongondow Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Bolaang Mongondow Utara" => drupal_map_assoc(array(
         t("Bintauna"),
         t("Bolang Itang Barat"),
         t("Bolang Itang Timur"),
@@ -6943,7 +6943,7 @@ function addressfield_id_locality_block() {
         t("Pinogaluman"),
         t("Sangkub"),
       )),
-      "Kepulauan Sangihe (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Sangihe" => drupal_map_assoc(array(
         t("Kendahe"),
         t("Kepulauan Marore"),
         t("Manganitu"),
@@ -6960,7 +6960,7 @@ function addressfield_id_locality_block() {
         t("Tamako"),
         t("Tatoareng"),
       )),
-      "Kepulauan Siau Tagulandang Biaro (Sitaro) (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Siau Tagulandang Biaro (Sitaro)" => drupal_map_assoc(array(
         t("Biaro"),
         t("Siau Barat"),
         t("Siau Barat Selatan"),
@@ -6972,7 +6972,7 @@ function addressfield_id_locality_block() {
         t("Tagulandang Selatan"),
         t("Tagulandang Utara"),
       )),
-      "Kepulauan Talaud (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Talaud" => drupal_map_assoc(array(
         t("Beo"),
         t("Beo Selatan"),
         t("Beo Utara"),
@@ -6993,13 +6993,13 @@ function addressfield_id_locality_block() {
         t("Salibabu"),
         t("Tampan Amma"),
       )),
-      "Kotamobagu (Kota)" => drupal_map_assoc(array(
+      "Kotamobagu" => drupal_map_assoc(array(
         t("Kotamobagu Barat"),
         t("Kotamobagu Selatan"),
         t("Kotamobagu Timur"),
         t("Kotamobagu Utara"),
       )),
-      "Manado (Kota)" => drupal_map_assoc(array(
+      "Manado" => drupal_map_assoc(array(
         t("Bunaken"),
         t("Bunaken Kepulauan"),
         t("Malalayang"),
@@ -7012,7 +7012,7 @@ function addressfield_id_locality_block() {
         t("Wanea"),
         t("Wenang"),
       )),
-      "Minahasa (Kabupaten)" => drupal_map_assoc(array(
+      "Minahasa" => drupal_map_assoc(array(
         t("Eris"),
         t("Kakas"),
         t("Kakas Barat"),
@@ -7039,7 +7039,7 @@ function addressfield_id_locality_block() {
         t("Tondano Timur"),
         t("Tondano Utara"),
       )),
-      "Minahasa Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Minahasa Selatan" => drupal_map_assoc(array(
         t("Amurang"),
         t("Amurang Barat"),
         t("Amurang Timur"),
@@ -7058,7 +7058,7 @@ function addressfield_id_locality_block() {
         t("Tompaso Baru"),
         t("Tumpaan"),
       )),
-      "Minahasa Tenggara (Kabupaten)" => drupal_map_assoc(array(
+      "Minahasa Tenggara" => drupal_map_assoc(array(
         t("Belang"),
         t("Pasan"),
         t("Pusomaen"),
@@ -7072,7 +7072,7 @@ function addressfield_id_locality_block() {
         t("Touluaan"),
         t("Touluaan Selatan"),
       )),
-      "Minahasa Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Minahasa Utara" => drupal_map_assoc(array(
         t("Airmadidi"),
         t("Dimembe"),
         t("Kalawat"),
@@ -7084,7 +7084,7 @@ function addressfield_id_locality_block() {
         t("Talawaan"),
         t("Wori"),
       )),
-      "Tomohon (Kota)" => drupal_map_assoc(array(
+      "Tomohon" => drupal_map_assoc(array(
         t("Tomohon Barat"),
         t("Tomohon Selatan"),
         t("Tomohon Tengah"),
@@ -7093,7 +7093,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sumatera Barat" => array(
-      "Agam (Kabupaten)" => drupal_map_assoc(array(
+      "Agam" => drupal_map_assoc(array(
         t("Ampek Nagari (IV Nagari )"),
         t("Banuhampu"),
         t("Baso"),
@@ -7111,12 +7111,12 @@ function addressfield_id_locality_block() {
         t("Tanjung Raya"),
         t("Tilatang Kamang"),
       )),
-      "Bukittinggi (Kota)" => drupal_map_assoc(array(
+      "Bukittinggi" => drupal_map_assoc(array(
         t("Aur Birugo Tigo Baleh"),
         t("Guguk Panjang (Guguak Panjang)"),
         t("Mandiangin Koto Selayan"),
       )),
-      "Dharmasraya (Kabupaten)" => drupal_map_assoc(array(
+      "Dharmasraya" => drupal_map_assoc(array(
         t("Asam Jujuhan"),
         t("Koto Baru"),
         t("Koto Besar"),
@@ -7129,7 +7129,7 @@ function addressfield_id_locality_block() {
         t("Timpeh"),
         t("Tiumang"),
       )),
-      "Kepulauan Mentawai (Kabupaten)" => drupal_map_assoc(array(
+      "Kepulauan Mentawai" => drupal_map_assoc(array(
         t("Pagai Selatan"),
         t("Pagai Utara"),
         t("Siberut Barat"),
@@ -7141,7 +7141,7 @@ function addressfield_id_locality_block() {
         t("Sipora Selatan"),
         t("Sipora Utara"),
       )),
-      "Lima Puluh Koto/Kota (Kabupaten)" => drupal_map_assoc(array(
+      "Lima Puluh Koto/Kota" => drupal_map_assoc(array(
         t("Akabiluru"),
         t("Bukik Barisan"),
         t("Guguak (Gugu)"),
@@ -7156,7 +7156,7 @@ function addressfield_id_locality_block() {
         t("Situjuah Limo/Lima Nagari"),
         t("Suliki"),
       )),
-      "Padang (Kota)" => drupal_map_assoc(array(
+      "Padang" => drupal_map_assoc(array(
         t("Bungus Teluk Kabung"),
         t("Koto Tangah"),
         t("Kuranji"),
@@ -7169,11 +7169,11 @@ function addressfield_id_locality_block() {
         t("Padang Utara"),
         t("Pauh"),
       )),
-      "Padang Panjang (Kota)" => drupal_map_assoc(array(
+      "Padang Panjang" => drupal_map_assoc(array(
         t("Padang Panjang Barat"),
         t("Padang Panjang Timur"),
       )),
-      "Padang Pariaman (Kabupaten)" => drupal_map_assoc(array(
+      "Padang Pariaman" => drupal_map_assoc(array(
         t("2 X 11 Enam Lingkung"),
         t("2 X 11 Kayu Tanam"),
         t("Batang Anai"),
@@ -7192,13 +7192,13 @@ function addressfield_id_locality_block() {
         t("V Koto Timur"),
         t("VII Koto Sungai Sarik"),
       )),
-      "Pariaman (Kota)" => drupal_map_assoc(array(
+      "Pariaman" => drupal_map_assoc(array(
         t("Pariaman Selatan"),
         t("Pariaman Tengah"),
         t("Pariaman Timur"),
         t("Pariaman Utara"),
       )),
-      "Pasaman (Kabupaten)" => drupal_map_assoc(array(
+      "Pasaman" => drupal_map_assoc(array(
         t("Bonjol"),
         t("Duo Koto (II Koto)"),
         t("Lubuk Sikaping"),
@@ -7212,7 +7212,7 @@ function addressfield_id_locality_block() {
         t("Simpang Alahan Mati"),
         t("Tigo Nagari (III Nagari)"),
       )),
-      "Pasaman Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Pasaman Barat" => drupal_map_assoc(array(
         t("Gunung Tuleh"),
         t("Kinali"),
         t("Koto Balingka"),
@@ -7225,14 +7225,14 @@ function addressfield_id_locality_block() {
         t("Sungai Aur"),
         t("Talamau"),
       )),
-      "Payakumbuh (Kota)" => drupal_map_assoc(array(
+      "Payakumbuh" => drupal_map_assoc(array(
         t("Lamposi Tigo Nagari"),
         t("Payakumbuh Barat"),
         t("Payakumbuh Selatan"),
         t("Payakumbuh Timur"),
         t("Payakumbuh Utara"),
       )),
-      "Pesisir Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Pesisir Selatan" => drupal_map_assoc(array(
         t("Airpura"),
         t("Basa Ampek Balai Tapan"),
         t("Batang Kapas"),
@@ -7249,13 +7249,13 @@ function addressfield_id_locality_block() {
         t("Silaut"),
         t("Sutera"),
       )),
-      "Sawah Lunto (Kota)" => drupal_map_assoc(array(
+      "Sawah Lunto" => drupal_map_assoc(array(
         t("Barangin"),
         t("Lembah Segar"),
         t("Silungkang"),
         t("Talawi"),
       )),
-      "Sijunjung (Sawah Lunto Sijunjung) (Kabupaten)" => drupal_map_assoc(array(
+      "Sijunjung (Sawah Lunto Sijunjung)" => drupal_map_assoc(array(
         t("IV Nagari"),
         t("Kamang Baru"),
         t("Koto VII"),
@@ -7285,7 +7285,7 @@ function addressfield_id_locality_block() {
         t("Lubuk Sikarah"),
         t("Tanjung Harapan"),
       )),
-      "Solok Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Solok Selatan" => drupal_map_assoc(array(
         t("Koto Parik Gadang Diateh"),
         t("Pauh Duo"),
         t("Sangir"),
@@ -7294,7 +7294,7 @@ function addressfield_id_locality_block() {
         t("Sangir Jujuan"),
         t("Sungai Pagu"),
       )),
-      "Tanah Datar (Kabupaten)" => drupal_map_assoc(array(
+      "Tanah Datar" => drupal_map_assoc(array(
         t("Batipuh"),
         t("Batipuh Selatan"),
         t("Lima Kaum"),
@@ -7312,7 +7312,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sumatera Selatan" => array(
-      "Banyuasin (Kabupaten)" => drupal_map_assoc(array(
+      "Banyuasin" => drupal_map_assoc(array(
         t("Air Kumbang"),
         t("Air Salek"),
         t("Banyuasin I"),
@@ -7333,7 +7333,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Lago"),
         t("Tungkal Ilir"),
       )),
-      "Empat Lawang (Kabupaten)" => drupal_map_assoc(array(
+      "Empat Lawang" => drupal_map_assoc(array(
         t("Lintang Kanan"),
         t("Muara Pinang"),
         t("Pasemah Air Keruh"),
@@ -7345,7 +7345,7 @@ function addressfield_id_locality_block() {
         t("Tebing Tinggi"),
         t("Ulu Musi"),
       )),
-      "Lahat (Kabupaten)" => drupal_map_assoc(array(
+      "Lahat" => drupal_map_assoc(array(
         t("Gumay Talang"),
         t("Gumay Ulu"),
         t("Jarai"),
@@ -7369,7 +7369,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Sakti Pumu"),
         t("Tanjung Tebat"),
       )),
-      "Lubuk Linggau (Kota)" => drupal_map_assoc(array(
+      "Lubuk Linggau" => drupal_map_assoc(array(
         t("Lubuk Linggau Barat Dua (II)"),
         t("Lubuk Linggau Barat Satu (I)"),
         t("Lubuk Linggau Selatan Dua (II)"),
@@ -7379,7 +7379,7 @@ function addressfield_id_locality_block() {
         t("Lubuk Linggau Utara Dua (II)"),
         t("Lubuk Linggau Utara Satu (I)"),
       )),
-      "Muara Enim (Kabupaten)" => drupal_map_assoc(array(
+      "Muara Enim" => drupal_map_assoc(array(
         t("Abab"),
         t("Benakat"),
         t("Gelumbang"),
@@ -7403,7 +7403,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Agung"),
         t("Ujan Mas"),
       )),
-      "Musi Banyuasin (Kabupaten)" => drupal_map_assoc(array(
+      "Musi Banyuasin" => drupal_map_assoc(array(
         t("Babat Supat"),
         t("Babat Toman"),
         t("Batanghari Leko"),
@@ -7419,7 +7419,7 @@ function addressfield_id_locality_block() {
         t("Sungai Lilin"),
         t("Tungkal Jaya"),
       )),
-      "Musi Rawas (Kabupaten)" => drupal_map_assoc(array(
+      "Musi Rawas" => drupal_map_assoc(array(
         t("Batukuning Lakitan Ulu (BTS)/Cecar"),
         t("Jaya Loka"),
         t("Karang Dapo"),
@@ -7442,7 +7442,7 @@ function addressfield_id_locality_block() {
         t("Tugumulyo"),
         t("Ulu Rawas"),
       )),
-      "Ogan Ilir (Kabupaten)" => drupal_map_assoc(array(
+      "Ogan Ilir" => drupal_map_assoc(array(
         t("Indralaya"),
         t("Indralaya Selatan"),
         t("Indralaya Utara"),
@@ -7460,7 +7460,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Batu"),
         t("Tanjung Raja"),
       )),
-      "Ogan Komering Ilir (Kabupaten)" => drupal_map_assoc(array(
+      "Ogan Komering Ilir" => drupal_map_assoc(array(
         t("Air Sugihan"),
         t("Cengal"),
         t("Jejawi"),
@@ -7480,7 +7480,7 @@ function addressfield_id_locality_block() {
         t("Teluk Gelam"),
         t("Tulung Selapan"),
       )),
-      "Ogan Komering Ulu (Kabupaten)" => drupal_map_assoc(array(
+      "Ogan Komering Ulu" => drupal_map_assoc(array(
         t("Baturaja Barat"),
         t("Baturaja Timur"),
         t("Lengkiti"),
@@ -7494,7 +7494,7 @@ function addressfield_id_locality_block() {
         t("Sosoh Buay Rayap"),
         t("Ulu Ogan"),
       )),
-      "Ogan Komering Ulu Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Ogan Komering Ulu Selatan" => drupal_map_assoc(array(
         t("Banding Agung"),
         t("Buana Pemaca"),
         t("Buay Pemaca"),
@@ -7515,7 +7515,7 @@ function addressfield_id_locality_block() {
         t("Tiga Dihaji"),
         t("Warkuk Ranau Selatan"),
       )),
-      "Ogan Komering Ulu Timur (Kabupaten)" => drupal_map_assoc(array(
+      "Ogan Komering Ulu Timur" => drupal_map_assoc(array(
         t("Belitang"),
         t("Belitang II"),
         t("Belitang III"),
@@ -7537,14 +7537,14 @@ function addressfield_id_locality_block() {
         t("Semendawai Suku III"),
         t("Semendawai Timur"),
       )),
-      "Pagar Alam (Kota)" => drupal_map_assoc(array(
+      "Pagar Alam" => drupal_map_assoc(array(
         t("Dempo Selatan"),
         t("Dempo Tengah"),
         t("Dempo Utara"),
         t("Pagar Alam Selatan"),
         t("Pagar Alam Utara"),
       )),
-      "Palembang (Kota)" => drupal_map_assoc(array(
+      "Palembang" => drupal_map_assoc(array(
         t("Alang-Alang Lebar"),
         t("Bukit Kecil"),
         t("Gandus"),
@@ -7562,7 +7562,7 @@ function addressfield_id_locality_block() {
         t("Sematang Borang"),
         t("Sukarami"),
       )),
-      "Prabumulih (Kota)" => drupal_map_assoc(array(
+      "Prabumulih" => drupal_map_assoc(array(
         t("Cambai"),
         t("Prabumulih Barat"),
         t("Prabumulih Selatan"),
@@ -7572,7 +7572,7 @@ function addressfield_id_locality_block() {
       )),
     ),
     "Sumatera Utara" => array(
-      "Asahan (Kabupaten)" => drupal_map_assoc(array(
+      "Asahan" => drupal_map_assoc(array(
         t("Aek Kuasan"),
         t("Aek Ledong"),
         t("Aek Songsongan"),
@@ -7599,7 +7599,7 @@ function addressfield_id_locality_block() {
         t("Teluk Dalam"),
         t("Tinggi Raja"),
       )),
-      "Batu Bara (Kabupaten)" => drupal_map_assoc(array(
+      "Batu Bara" => drupal_map_assoc(array(
         t("Air Putih"),
         t("Limapuluh"),
         t("Medang Deras"),
@@ -7608,14 +7608,14 @@ function addressfield_id_locality_block() {
         t("Talawi"),
         t("Tanjung Tiram"),
       )),
-      "Binjai (Kota)" => drupal_map_assoc(array(
+      "Binjai" => drupal_map_assoc(array(
         t("Binjai Barat"),
         t("Binjai Kota"),
         t("Binjai Selatan"),
         t("Binjai Timur"),
         t("Binjai Utara"),
       )),
-      "Dairi (Kabupaten)" => drupal_map_assoc(array(
+      "Dairi" => drupal_map_assoc(array(
         t("Berampu (Brampu)"),
         t("Gunung Sitember"),
         t("Lae Parira"),
@@ -7632,7 +7632,7 @@ function addressfield_id_locality_block() {
         t("Tanah Pinem"),
         t("Tiga Lingga"),
       )),
-      "Deli Serdang (Kabupaten)" => drupal_map_assoc(array(
+      "Deli Serdang" => drupal_map_assoc(array(
         t("Bangun Purba"),
         t("Batang Kuis"),
         t("Beringin"),
@@ -7656,7 +7656,7 @@ function addressfield_id_locality_block() {
         t("Sunggal"),
         t("Tanjung Morawa"),
       )),
-      "Gunungsitoli (Kota)" => drupal_map_assoc(array(
+      "Gunungsitoli" => drupal_map_assoc(array(
         t("Gunungsitoli"),
         t("Gunungsitoli Alo'oa"),
         t("Gunungsitoli Barat"),
@@ -7664,7 +7664,7 @@ function addressfield_id_locality_block() {
         t("Gunungsitoli Selatan"),
         t("Gunungsitoli Utara"),
       )),
-      "Humbang Hasundutan (Kabupaten)" => drupal_map_assoc(array(
+      "Humbang Hasundutan" => drupal_map_assoc(array(
         t("Bakti Raja"),
         t("Dolok Sanggul"),
         t("Lintong Nihuta"),
@@ -7676,7 +7676,7 @@ function addressfield_id_locality_block() {
         t("Sijama Polang"),
         t("Tara Bintang"),
       )),
-      "Karo (Kabupaten)" => drupal_map_assoc(array(
+      "Karo" => drupal_map_assoc(array(
         t("Barus Jahe"),
         t("Brastagi (Berastagi)"),
         t("Dolat Rayat"),
@@ -7695,7 +7695,7 @@ function addressfield_id_locality_block() {
         t("Tiga Panah"),
         t("Tiganderket"),
       )),
-      "Labuhan Batu (Kabupaten)" => drupal_map_assoc(array(
+      "Labuhan Batu" => drupal_map_assoc(array(
         t("Bilah Barat"),
         t("Bilah Hilir"),
         t("Bilah Hulu"),
@@ -7706,14 +7706,14 @@ function addressfield_id_locality_block() {
         t("Rantau Selatan"),
         t("Rantau Utara"),
       )),
-      "Labuhan Batu Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Labuhan Batu Selatan" => drupal_map_assoc(array(
         t("Kampung Rakyat"),
         t("Kota Pinang"),
         t("Sei/Sungai Kanan"),
         t("Silangkitang"),
         t("Torgamba"),
       )),
-      "Labuhan Batu Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Labuhan Batu Utara" => drupal_map_assoc(array(
         t("Aek Kuo"),
         t("Aek Natas"),
         t("Kuala Ledong (Kualuh Leidong)"),
@@ -7723,7 +7723,7 @@ function addressfield_id_locality_block() {
         t("Marbau"),
         t("Na IX-X"),
       )),
-      "Langkat (Kabupaten)" => drupal_map_assoc(array(
+      "Langkat" => drupal_map_assoc(array(
         t("Babalan"),
         t("Bahorok"),
         t("Batang Serangan"),
@@ -7748,7 +7748,7 @@ function addressfield_id_locality_block() {
         t("Tanjungpura"),
         t("Wampu"),
       )),
-      "Mandailing Natal (Kabupaten)" => drupal_map_assoc(array(
+      "Mandailing Natal" => drupal_map_assoc(array(
         t("Batahan"),
         t("Batang Natal"),
         t("Bukit Malintang"),
@@ -7773,7 +7773,7 @@ function addressfield_id_locality_block() {
         t("Tambangan"),
         t("Ulu Pungkut"),
       )),
-      "Medan (Kota)" => drupal_map_assoc(array(
+      "Medan" => drupal_map_assoc(array(
         t("Medan Amplas"),
         t("Medan Area"),
         t("Medan Barat"),
@@ -7796,7 +7796,7 @@ function addressfield_id_locality_block() {
         t("Medan Timur"),
         t("Medan Tuntungan"),
       )),
-      "Nias (Kabupaten)" => drupal_map_assoc(array(
+      "Nias" => drupal_map_assoc(array(
         t("Bawolato"),
         t("Botomuzoi"),
         t("Gido"),
@@ -7808,7 +7808,7 @@ function addressfield_id_locality_block() {
         t("Somolo-Molo (Samolo)"),
         t("Ulugawo"),
       )),
-      "Nias Barat (Kabupaten)" => drupal_map_assoc(array(
+      "Nias Barat" => drupal_map_assoc(array(
         t("Lahomi (Gahori)"),
         t("Lolofitu Moi"),
         t("Mandrehe"),
@@ -7818,7 +7818,7 @@ function addressfield_id_locality_block() {
         t("Sirombu"),
         t("Ulu Moro'o (Ulu Narwo)"),
       )),
-      "Nias Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Nias Selatan" => drupal_map_assoc(array(
         t("Amandraya"),
         t("Aramo"),
         t("Boronadu"),
@@ -7851,7 +7851,7 @@ function addressfield_id_locality_block() {
         t("Ulususua"),
         t("Umbunasi"),
       )),
-      "Nias Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Nias Utara" => drupal_map_assoc(array(
         t("Afulu"),
         t("Alasa"),
         t("Alasa Talumuzoi"),
@@ -7864,7 +7864,7 @@ function addressfield_id_locality_block() {
         t("Tugala Oyo"),
         t("Tuhemberua"),
       )),
-      "Padang Lawas (Kabupaten)" => drupal_map_assoc(array(
+      "Padang Lawas" => drupal_map_assoc(array(
         t("Aek Nabara Barumun"),
         t("Barumun"),
         t("Barumun Selatan"),
@@ -7878,7 +7878,7 @@ function addressfield_id_locality_block() {
         t("Sosopan"),
         t("Ulu Barumun"),
       )),
-      "Padang Lawas Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Padang Lawas Utara" => drupal_map_assoc(array(
         t("Batang Onang"),
         t("Dolok"),
         t("Dolok Sigompulon"),
@@ -7889,7 +7889,7 @@ function addressfield_id_locality_block() {
         t("Portibi"),
         t("Simangambat"),
       )),
-      "Padang Sidempuan (Kota)" => drupal_map_assoc(array(
+      "Padang Sidempuan" => drupal_map_assoc(array(
         t("Padang Sidempuan Angkola Julu"),
         t("Padang Sidempuan Batunadua"),
         t("Padang Sidempuan Hutaimbaru"),
@@ -7897,7 +7897,7 @@ function addressfield_id_locality_block() {
         t("Padang Sidempuan Tenggara"),
         t("Padang Sidempuan Utara (Padangsidimpuan)"),
       )),
-      "Pakpak Bharat (Kabupaten)" => drupal_map_assoc(array(
+      "Pakpak Bharat" => drupal_map_assoc(array(
         t("Kerajaan"),
         t("Pagindar"),
         t("Pergetteng Getteng Sengkut"),
@@ -7907,7 +7907,7 @@ function addressfield_id_locality_block() {
         t("Sitellu Tali Urang Julu"),
         t("Tinada"),
       )),
-      "Pematang Siantar (Kota)" => drupal_map_assoc(array(
+      "Pematang Siantar" => drupal_map_assoc(array(
         t("Siantar Barat"),
         t("Siantar Marihat"),
         t("Siantar Marimbun"),
@@ -7917,7 +7917,7 @@ function addressfield_id_locality_block() {
         t("Siantar Timur"),
         t("Siantar Utara"),
       )),
-      "Samosir (Kabupaten)" => drupal_map_assoc(array(
+      "Samosir" => drupal_map_assoc(array(
         t("Harian"),
         t("Nainggolan"),
         t("Onan Runggu"),
@@ -7928,7 +7928,7 @@ function addressfield_id_locality_block() {
         t("Simanindo"),
         t("Sitio-Tio"),
       )),
-      "Serdang Bedagai (Kabupaten)" => drupal_map_assoc(array(
+      "Serdang Bedagai" => drupal_map_assoc(array(
         t("Bandar Khalifah"),
         t("Bintang Bayu"),
         t("Dolok Masihul"),
@@ -7947,13 +7947,13 @@ function addressfield_id_locality_block() {
         t("Tebing Tinggi"),
         t("Teluk Mengkudu"),
       )),
-      "Sibolga (Kota)" => drupal_map_assoc(array(
+      "Sibolga" => drupal_map_assoc(array(
         t("Sibolga Kota"),
         t("Sibolga Sambas"),
         t("Sibolga Selatan"),
         t("Sibolga Utara"),
       )),
-      "Simalungun (Kabupaten)" => drupal_map_assoc(array(
+      "Simalungun" => drupal_map_assoc(array(
         t("Bandar"),
         t("Bandar Huluan"),
         t("Bandar Masilam"),
@@ -7986,7 +7986,7 @@ function addressfield_id_locality_block() {
         t("Tapian Dolok"),
         t("Ujung Padang"),
       )),
-      "Tanjung Balai (Kota)" => drupal_map_assoc(array(
+      "Tanjung Balai" => drupal_map_assoc(array(
         t("Datuk Bandar"),
         t("Datuk Bandar Timur"),
         t("Sei Tualang Raso"),
@@ -7994,7 +7994,7 @@ function addressfield_id_locality_block() {
         t("Tanjung Balai Utara"),
         t("Teluk Nibung"),
       )),
-      "Tapanuli Selatan (Kabupaten)" => drupal_map_assoc(array(
+      "Tapanuli Selatan" => drupal_map_assoc(array(
         t("Aek Bilah"),
         t("Angkola Barat (Padang Sidempuan)"),
         t("Angkola Sangkunur"),
@@ -8010,7 +8010,7 @@ function addressfield_id_locality_block() {
         t("Sipirok"),
         t("Tano Tombangan Angkola"),
       )),
-      "Tapanuli Tengah (Kabupaten)" => drupal_map_assoc(array(
+      "Tapanuli Tengah" => drupal_map_assoc(array(
         t("Andam Dewi"),
         t("Badiri"),
         t("Barus"),
@@ -8032,7 +8032,7 @@ function addressfield_id_locality_block() {
         t("Tapian Nauli"),
         t("Tukka"),
       )),
-      "Tapanuli Utara (Kabupaten)" => drupal_map_assoc(array(
+      "Tapanuli Utara" => drupal_map_assoc(array(
         t("Adian Koting"),
         t("Garoga"),
         t("Muara"),
@@ -8049,14 +8049,14 @@ function addressfield_id_locality_block() {
         t("Sipoholon"),
         t("Tarutung"),
       )),
-      "Tebing Tinggi (Kota)" => drupal_map_assoc(array(
+      "Tebing Tinggi" => drupal_map_assoc(array(
         t("Bajenis"),
         t("Padang Hilir"),
         t("Padang Hulu"),
         t("Rambutan"),
         t("Tebing Tinggi Kota"),
       )),
-      "Toba Samosir (Kabupaten)" => drupal_map_assoc(array(
+      "Toba Samosir" => drupal_map_assoc(array(
         t("Ajibata"),
         t("Balige"),
         t("Bonatua Lunasi"),
