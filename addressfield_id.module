@@ -49,7 +49,7 @@ function addressfield_id_field_widget_info_alter(&$info) {
  */
 function addressfield_id_form_field_ui_field_edit_form_alter(&$form, &$form_state, $form_id) {
   if ($form['#instance']['widget']['type'] == 'addressfield_standard') {
-    if ($form['#instance']['widget']['settings']['format_handlers']['address_id'] == TRUE) {
+    if (isset($form['#instance']['widget']['settings']['format_handlers']['address_id'])) {
       $widget = $form['#instance']['widget'];
       $defaults = field_info_widget_settings($widget['type']);
       $settings = array_merge($defaults, $widget['settings']);
