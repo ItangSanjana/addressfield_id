@@ -8076,6 +8076,5 @@ function addressfield_id_locality_block() {
       )),
     ),
   );
-
   return $locality_blocks;
 }

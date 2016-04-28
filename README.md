@@ -1,30 +1,43 @@
-# Address Field ID
+## CONTENTS OF THIS FILE
 
-## Introduction
+- Introduction
+- Requirements
+- Installation
+- Configuration
+- Maintainers
 
-This module integrates Indonesia addresses with [Address Field](//drupal.org/project/addressfield).
+## INTRODUCTION
 
-## Requirement
+This module integrates Indonesia addresses with Address Field
 
-- [Address Field](//drupal.org/project/addressfield)
+- To submit bug reports and feature suggestions, or to track changes:  
+https://www.drupal.org/project/issues/addressfield_id
 
-## Installation
+## REQUIREMENTS
 
-- Using [drush](https://github.com/drush-ops/drush)
+- Address Field (https://www.drupal.org/project/addressfield)
 
-  ```Shell
-  cd to/your/drupal/project
-  drush dl addressfield_id
-  drush en addressfield_id
-  ```
+## INSTALLATION
 
-- or manual install see: [Installing modules (Drupal 7)](https://www.drupal.org/documentation/install/modules-themes/modules-7).
+- Using Drush (https://github.com/drush-ops/drush):
 
-## Configuration
+    cd to/your/drupal/project  
+    drush dl addressfield_id  
+    drush en addressfield_id
 
-- Add Address Field field see: [Address Fild doc](https://www.drupal.org/node/1267280)
-- Enable Address Field ID format handlers e.g. go to:
+- or manual install see:  
+https://www.drupal.org/documentation/install/modules-themes/modules-7
 
-  ```Shell
-  admin/structure/types/manage/[content_type]/fields/[addressfield_field]
-  ```
+## CONFIGURATION
+
+- Add Address Field field see:  
+https://www.drupal.org/node/1267280
+
+- Enable Address Field ID format handlers e.g. go to:  
+admin/structure/types/manage/[content_type]/fields/[addressfield_field]
+
+## MAINTAINERS
+
+Current maintainers:
+
+- Itang Sanjana (ItangSanjana) - https://ItangSanjana.GitHub.Io
