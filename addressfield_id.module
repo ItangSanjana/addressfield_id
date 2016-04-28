@@ -6,6 +6,31 @@
  */
 
 /**
+ * Implements hook_help().
+ */
+function addressfield_id_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#addressfield_id' :
+      $output = FALSE;
+      $filepath = dirname(__FILE__) . '/README.md';
+      if (file_exists($filepath)) {
+        $readme = file_get_contents($filepath);
+        if (module_exists('markdown')) {
+          $filters = module_invoke('markdown', 'filter_info');
+          $info = $filters ['filter_markdown'];
+          if (function_exists($info ['process callback'])) {
+            $output = $info['process callback']($readme, NULL);
+          }
+        }
+        else {
+          $output = '<pre>' . $readme . '</pre>';
+        }
+      }
+      return $output;
+  }
+}
+
+/**
  * Implements hook_ctools_plugin_directory().
  */
 function addressfield_id_ctools_plugin_directory($module, $plugin) {
@@ -15,22 +40,16 @@ function addressfield_id_ctools_plugin_directory($module, $plugin) {
 }
 
 /**
- * Implements hook_help().
+ * Implements hook_addressfield_address_formats_alter().
  */
-function addressfield_id_help($path, $arg) {
-  switch ($path) {
-    case 'admin/help#addressfield_id':
-
-    $output = FALSE;
-    $filepath = dirname(__FILE__) . '/README.txt';
-
-    if (file_exists($filepath)) {
-      $readme = file_get_contents($filepath);
-      $output = '<pre>' . $readme . '</pre>';
-    }
-
-    return $output;
-  }
+function addressfield_id_addressfield_address_formats_alter(&$address_formats) {
+  $address_formats['ID']['used_fields'][] = 'dependent_locality';
+  $address_formats['ID']['required_fields'] = array(
+    'administrative_area',
+    'locality',
+    'dependent_locality',
+    'postal_code',
+  );
 }
 
 /**
@@ -56,7 +75,6 @@ function addressfield_id_form_field_ui_field_edit_form_alter(&$form, &$form_stat
         $settings = array_merge($defaults, $widget['settings']);
         $available_administrative_areas = $settings['available_administrative_areas'];
         $available_localities = $settings['available_localities'];
-
         $form['instance']['widget']['settings']['available_administrative_areas'] = array(
           '#type' => 'select',
           '#multiple' => TRUE,
@@ -65,7 +83,6 @@ function addressfield_id_form_field_ui_field_edit_form_alter(&$form, &$form_stat
           '#options' => addressfield_id_administrative_area(),
           '#default_value' => $available_administrative_areas,
         );
-
         $form['instance']['widget']['settings']['available_localities'] = array(
           '#type' => 'select',
           '#multiple' => TRUE,
@@ -74,7 +91,6 @@ function addressfield_id_form_field_ui_field_edit_form_alter(&$form, &$form_stat
           '#options' => addressfield_id_locality($available_administrative_areas),
           '#default_value' => $available_localities,
         );
-
         $form['instance']['widget']['settings']['available_dependent_localities'] = array(
           '#type' => 'select',
           '#multiple' => TRUE,
