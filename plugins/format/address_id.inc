@@ -43,22 +43,23 @@ function addressfield_id_addressfield_format_callback(&$format, $address, $conte
       );
       $format['locality_block']['locality']['#options'] = $locality_options;
       $format['locality_block']['locality']['#empty_value'] = '';
-      $format['locality_block']['locality']['#weight'] = 0;
+      $format['locality_block']['locality']['#weight'] = 1;
       $format['locality_block']['locality']['#ajax'] = array(
         'callback' => 'addressfield_standard_widget_refresh',
         'wrapper' => $format['#wrapper_id'],
       );
       $format['locality_block']['dependent_locality']['#options'] = $dependent_locality_options;
       $format['locality_block']['dependent_locality']['#empty_value'] = '';
+      $format['locality_block']['dependent_locality']['#weight'] = 2;
       $format['locality_block']['dependent_locality']['#suffix'] = NULL;
       $format['locality_block']['dependent_locality']['#title'] = t('District/kecamatan');
+      $format['locality_block']['postal_code']['#weight'] = 3;
       $format['street_block']['premise']['#description'] = t('Apartment, suite, unit etc. (optional)');
     }
     else {
       $format['locality_block']['dependent_locality']['#suffix'] = ',';
       $format['locality_block']['dependent_locality']['#tag'] = NULL;
       $format['locality_block']['postal_code']['#suffix'] = ',';
-      $format['locality_block']['postal_code']['#weight'] = 1;
     }
   }
   else {
