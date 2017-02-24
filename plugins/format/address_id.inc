@@ -20,21 +20,23 @@ function addressfield_id_addressfield_format_callback(&$format, $address, $conte
   if ($address['country'] == 'ID') {
     if ($context['mode'] == 'form') {
       $settings = $context['instance']['widget']['settings'];
-      $available_administrative_areas = $settings['available_administrative_areas'];
-      $available_localities = $settings['available_localities'];
-      $available_dependent_localities = $settings['available_dependent_localities'];
-      $administrative_area_options = addressfield_id_administrative_area();
-      $locality_options = addressfield_id_locality($address['administrative_area']);
-      $dependent_locality_options = addressfield_id_dependent_locality($address['locality']);
-      if ($available_administrative_areas) {
-        $administrative_area_options = array_intersect_key($administrative_area_options, $available_administrative_areas);
-      }
-      if ($available_localities) {
-        $locality_options = array_intersect_key($locality_options, $available_localities);
-      }
-      if ($available_dependent_localities) {
-        $dependent_locality_options = array_intersect_key($dependent_locality_options, $available_dependent_localities);
-      }
+      $administrative_areas = addressfield_id_administrative_area();
+      $administrative_area_options =
+        array_intersect_key($administrative_areas, $settings['available_administrative_areas']) ?
+        array_intersect_key($administrative_areas, $settings['available_administrative_areas']) :
+        $administrative_areas;
+      $localities = addressfield_id_locality($address['administrative_area']);
+      $available_localities = $settings['available_administrative_areas'] ? $settings['available_localities'] : array();
+      $locality_options =
+        array_intersect_key($localities, $available_localities) ?
+        array_intersect_key($localities, $available_localities) :
+        $localities;
+      $dependent_localities = addressfield_id_dependent_locality($address['administrative_area'], $address['locality']);
+      $available_dependent_localities = $available_localities ? $settings['available_dependent_localities'] : array();
+      $dependent_locality_options =
+        array_intersect_key($dependent_localities, $available_dependent_localities) ?
+        array_intersect_key($dependent_localities, $available_dependent_localities) :
+        $dependent_localities;
       $format['locality_block']['administrative_area']['#options'] = $administrative_area_options;
       $format['locality_block']['administrative_area']['#weight'] = 0;
       $format['locality_block']['administrative_area']['#ajax'] = array(

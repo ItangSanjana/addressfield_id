@@ -13,7 +13,7 @@ function addressfield_id_help($path, $arg) {
     case 'admin/help#addressfield_id' :
       $output = FALSE;
       $filepath = dirname(__FILE__) . '/README.md';
-      if (file_exists($filepath)) {
+      if (file_exists( $filepath )) {
         $readme = file_get_contents($filepath);
         if (module_exists('markdown')) {
           $filters = module_invoke('markdown', 'filter_info');
@@ -26,6 +26,7 @@ function addressfield_id_help($path, $arg) {
           $output = '<pre>' . $readme . '</pre>';
         }
       }
+
       return $output;
   }
 }
@@ -96,7 +97,7 @@ function addressfield_id_form_field_ui_field_edit_form_alter(&$form, &$form_stat
           '#multiple' => TRUE,
           '#title' => t('Available dependent localities'),
           '#description' => t('If no dependent localities are selected, all dependent localities will be available.'),
-          '#options' => addressfield_id_dependent_locality($available_localities),
+          '#options' => addressfield_id_dependent_locality($available_administrative_areas, $available_localities),
           '#default_value' => $settings['available_dependent_localities'],
         );
       }
