@@ -6,24 +6,22 @@
  */
 
 /**
- * Implements hook_help().
+ * Implements hook_help.
  */
 function addressfield_id_help($path, $arg) {
   switch ($path) {
-    case 'admin/help#addressfield_id' :
+    case 'admin/help#addressfield_id':
       $output = FALSE;
-      $filepath = dirname(__FILE__) . '/README.md';
-      if (file_exists( $filepath )) {
-        $readme = file_get_contents($filepath);
+      $readme = dirname(__FILE__) . '/README.md';
+      if (file_exists($readme)) {
+        $contents = file_get_contents($readme);
+        $output = '<pre>' . $contents . '</pre>';
         if (module_exists('markdown')) {
-          $filters = module_invoke('markdown', 'filter_info');
-          $info = $filters ['filter_markdown'];
-          if (function_exists($info ['process callback'])) {
-            $output = $info['process callback']($readme, NULL);
+          $info = module_invoke('markdown', 'filter_info');
+          $markdown = $info['filter_markdown'];
+          if (function_exists($markdown['process callback'])) {
+            $output = $markdown['process callback']($contents, NULL);
           }
-        }
-        else {
-          $output = '<pre>' . $readme . '</pre>';
         }
       }
 
@@ -32,7 +30,7 @@ function addressfield_id_help($path, $arg) {
 }
 
 /**
- * Implements hook_ctools_plugin_directory().
+ * Implements hook_ctools_plugin_directory.
  */
 function addressfield_id_ctools_plugin_directory($module, $plugin) {
   if ($module == 'addressfield') {
@@ -41,7 +39,7 @@ function addressfield_id_ctools_plugin_directory($module, $plugin) {
 }
 
 /**
- * Implements hook_addressfield_address_formats_alter().
+ * Implements hook_addressfield_address_formats_alter.
  */
 function addressfield_id_addressfield_address_formats_alter(&$address_formats) {
   $address_formats['ID']['used_fields'][] = 'dependent_locality';
@@ -54,53 +52,15 @@ function addressfield_id_addressfield_address_formats_alter(&$address_formats) {
 }
 
 /**
- * Implements hook_field_widget_info_alter()
+ * Implements hook_addressfield_administrative_areas_alter.
  */
-function addressfield_id_field_widget_info_alter(&$info) {
-  if (isset($info['addressfield_standard']['settings'])) {
-    $info['addressfield_standard']['settings']['available_administrative_areas'] = array();
-    $info['addressfield_standard']['settings']['available_localities'] = array();
-    $info['addressfield_standard']['settings']['available_dependent_localities'] = array();
-  }
-}
-
-/**
- * Implements hook_form_FORM_ID_alter()
- */
-function addressfield_id_form_field_ui_field_edit_form_alter(&$form, &$form_state, $form_id) {
-  if ($form['#instance']['widget']['type'] == 'addressfield_standard') {
-    if (isset($form['#instance']['widget']['settings']['format_handlers']['address_id'])) {
-      if ($form['#instance']['widget']['settings']['format_handlers']['address_id'] == TRUE) {
-        $widget = $form['#instance']['widget'];
-        $defaults = field_info_widget_settings($widget['type']);
-        $settings = array_merge($defaults, $widget['settings']);
-        $available_administrative_areas = $settings['available_administrative_areas'];
-        $available_localities = $settings['available_localities'];
-        $form['instance']['widget']['settings']['available_administrative_areas'] = array(
-          '#type' => 'select',
-          '#multiple' => TRUE,
-          '#title' => t('Available administrative areas'),
-          '#description' => t('If no administrative areas are selected, all administrative areas will be available.'),
-          '#options' => addressfield_id_administrative_area(),
-          '#default_value' => $available_administrative_areas,
-        );
-        $form['instance']['widget']['settings']['available_localities'] = array(
-          '#type' => 'select',
-          '#multiple' => TRUE,
-          '#title' => t('Available localities'),
-          '#description' => t('If no localities are selected, all localities will be available.'),
-          '#options' => addressfield_id_locality($available_administrative_areas),
-          '#default_value' => $available_localities,
-        );
-        $form['instance']['widget']['settings']['available_dependent_localities'] = array(
-          '#type' => 'select',
-          '#multiple' => TRUE,
-          '#title' => t('Available dependent localities'),
-          '#description' => t('If no dependent localities are selected, all dependent localities will be available.'),
-          '#options' => addressfield_id_dependent_locality($available_administrative_areas, $available_localities),
-          '#default_value' => $settings['available_dependent_localities'],
-        );
-      }
-    }
-  }
+function addressfield_id_addressfield_administrative_areas_alter(
+  &$administrative_areas
+) {
+  module_load_include(
+    'inc',
+    'addressfield_id',
+    'includes/addressfield_id.locality_block'
+  );
+  $administrative_areas['ID'] = addressfield_id_administrative_area();
 }
